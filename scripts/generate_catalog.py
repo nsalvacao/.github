@@ -11,25 +11,29 @@ def extract_frontmatter(file_path):
             match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
             if match:
                 return yaml.safe_load(match.group(1))
-    except Exception as e:
-        print(f"Erro ao ler {file_path}: {e}")
+    except (OSError, yaml.YAMLError) as e:
+        print(f"Erro ao ler ou processar o YAML de {file_path}: {e}")
     return None
 
 def generate_catalog(base_dir='artifacts'):
     catalog = []
     
+    if not os.path.exists(base_dir):
+        print(f"Diretório {base_dir} não encontrado.")
+        return catalog
+
     # Percorrer as pastas 01 a 10
     for dimension_folder in sorted(os.listdir(base_dir)):
-        if not re.match(r'^\d{2}_', dimension_folder):
+        dim_path = os.path.join(base_dir, dimension_folder)
+        if not os.path.isdir(dim_path) or not re.match(r'^\d{2}_', dimension_folder):
             continue
             
         dim_id = dimension_folder.split('_')[0]
-        dim_path = os.path.join(base_dir, dimension_folder)
         
-        # Percorrer subpastas (policies, standards, templates)
-        for sub_folder in ['policies', 'standards', 'templates']:
+        # Percorrer subpastas dinamicamente
+        for sub_folder in sorted(os.listdir(dim_path)):
             sub_path = os.path.join(dim_path, sub_folder)
-            if not os.path.exists(sub_path):
+            if not os.path.isdir(sub_path):
                 continue
                 
             for file_name in os.listdir(sub_path):
@@ -40,7 +44,7 @@ def generate_catalog(base_dir='artifacts'):
                     if metadata:
                         # Limpar e normalizar os dados
                         catalog_entry = {
-                            "id": metadata.get('id', file_name.replace('.md', '').upper()),
+                            "id": str(metadata.get('id', file_name.replace('.md', '').upper())),
                             "dimension": dim_id,
                             "title": metadata.get('title', 'Untitled'),
                             "nature": metadata.get('artifact_type', sub_folder.rstrip('s')).capitalize(),
@@ -54,8 +58,12 @@ def generate_catalog(base_dir='artifacts'):
 
 if __name__ == "__main__":
     catalog_data = generate_catalog()
-    output_path = os.path.join('docs', 'catalog.json')
+    output_dir = 'docs'
+    output_path = os.path.join(output_dir, 'catalog.json')
     
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(catalog_data, f, indent=2, ensure_ascii=False)
         
