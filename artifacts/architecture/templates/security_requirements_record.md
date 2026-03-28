@@ -156,6 +156,21 @@ Requirements in this category verify that security configuration is hardened and
 | Req ID | ASVS ID | Category | Requirement description | Verification method | Status |
 |---|---|---|---|---|---|
 | `{{REQ_ID}}` | `V14.x.x` | Configuration | `{{REQUIREMENT_DESCRIPTION}}` | `{{VERIFICATION_METHOD}}` | `{{STATUS}}` |
+### V6 — Stored Cryptography
+
+Requirements in this category verify that stored cryptographic secrets are managed securely.
+
+| Req ID | ASVS ID | Category | Requirement description | Verification method | Status |
+|---|---|---|---|---|---|
+| `{{REQ_ID}}` | `V6.x.x` | Stored Cryptography | `{{REQUIREMENT_DESCRIPTION}}` | `{{VERIFICATION_METHOD}}` | `{{STATUS}}` |
+
+### V11 — Business Logic
+
+Requirements in this category verify that business logic is free of security vulnerabilities.
+
+| Req ID | ASVS ID | Category | Requirement description | Verification method | Status |
+|---|---|---|---|---|---|
+| `{{REQ_ID}}` | `V11.x.x` | Business Logic | `{{REQUIREMENT_DESCRIPTION}}` | `{{VERIFICATION_METHOD}}` | `{{STATUS}}` |
 
 ---
 
