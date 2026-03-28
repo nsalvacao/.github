@@ -42,9 +42,9 @@ Add one row per mission-critical function. RTO must be less than or equal to MTD
 
 Map each key resource to the functions it supports. This matrix is used during recovery to determine the minimum resource set needed to restore each priority tier.
 
-| Resource Name | Resource Type | Functions Supported | Owner | Notes |
-|---|---|---|---|---|
-| `{{RESOURCE_NAME}}` | `{{RESOURCE_TYPE}}` | `{{FUNCTIONS_SUPPORTED}}` | `{{RESOURCE_OWNER}}` | `{{RESOURCE_NOTES}}` |
+| Resource Name | Resource Type | Functions Supported | Owner | SPOF (Y/N) | Notes |
+|---|---|---|---|---|---|
+| `{{RESOURCE_NAME}}` | `{{RESOURCE_TYPE}}` | `{{FUNCTIONS_SUPPORTED}}` | `{{RESOURCE_OWNER}}` | `{{SPOF_FLAG}}` | `{{RESOURCE_NOTES}}` |
 
 Resource types include: application, database, infrastructure, network, personnel, facility, third-party service. Flag single points of failure with `{{SPOF_FLAG}}`.
 
