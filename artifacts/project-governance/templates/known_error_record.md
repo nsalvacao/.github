@@ -4,7 +4,7 @@ artifact_type: template
 status: draft
 visibility: public
 classification: public
-owner: GOVERNANCE
+owner: "{{GOVERNANCE_OWNER}}"
 review_cadence: quarterly
 applies_to: diagnosed but unresolved errors and workarounds
 source_basis: ITIL, NIST
@@ -71,6 +71,8 @@ Record a diagnosed but unresolved error, its impact, and its workaround until a 
 3. `{{WORKAROUND_STEP_3}}`
 
 **Workaround limitations**: `{{WORKAROUND_LIMITATIONS}}`
+
+**Workaround effectiveness**: `{{WORKAROUND_EFFECTIVENESS}}` (Fully Effective / Partially Effective / Unreliable) — Effectiveness score: `{{WORKAROUND_EFFECTIVENESS_SCORE}}` (1 = barely usable, 5 = fully resolves impact). ITIL 4 KEDB requires effectiveness tracking to determine whether re-categorisation as a problem is needed.
 
 **Workaround owner**: `{{WORKAROUND_OWNER}}`
 

@@ -4,7 +4,7 @@ artifact_type: template
 status: public-draft
 visibility: public
 classification: public
-owner: risk-platform
+owner: "{{RISK_OWNER}}"
 review_cadence: monthly
 applies_to: project, service, and governance risks
 source_basis: NIST risk management guidance and Microsoft Learn governance practices
@@ -14,6 +14,23 @@ source_manifests:
 alignment_mode: hybrid-synthesis
 updated: 2026-03-27
 ---
+
+## Risk Appetite Statement
+
+ISO 31000:2018 Clause 5.3 requires the organisation to define and communicate its risk appetite before risks are assessed. Without a declared appetite, treatment decisions lack a consistent reference point.
+
+| Risk Category | Appetite Level | Maximum Acceptable Score | Rationale |
+|---|---|---|---|
+| Strategic | `{{STR_APPETITE}}` (Zero / Low / Medium / High) | `{{STR_MAX_SCORE}}` | `{{STR_APPETITE_RATIONALE}}` |
+| Operational | `{{OPS_APPETITE}}` | `{{OPS_MAX_SCORE}}` | `{{OPS_APPETITE_RATIONALE}}` |
+| Security | `{{SEC_APPETITE}}` | `{{SEC_MAX_SCORE}}` | `{{SEC_APPETITE_RATIONALE}}` |
+| Compliance | `{{COM_APPETITE}}` | `{{COM_MAX_SCORE}}` | `{{COM_APPETITE_RATIONALE}}` |
+| Financial | `{{FIN_APPETITE}}` | `{{FIN_MAX_SCORE}}` | `{{FIN_APPETITE_RATIONALE}}` |
+| Technical | `{{TEC_APPETITE}}` | `{{TEC_MAX_SCORE}}` | `{{TEC_APPETITE_RATIONALE}}` |
+
+Approved by: `{{RISK_APPETITE_APPROVER}}` — Date: `{{RISK_APPETITE_APPROVED_DATE}}`
+
+Any risk with a residual score exceeding its category's maximum acceptable score requires escalation to `{{RISK_ESCALATION_AUTHORITY}}`.
 
 ## Register Metadata
 

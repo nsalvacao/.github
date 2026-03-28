@@ -4,7 +4,7 @@ artifact_type: template
 status: draft
 visibility: public
 classification: public
-owner: GOVERNANCE
+owner: "{{GOVERNANCE_OWNER}}"
 review_cadence: quarterly
 applies_to: project baseline planning and governance setup
 source_basis: PMI, PRINCE2
@@ -43,7 +43,7 @@ Define the baseline for planning, controls, delivery approach, and governance, f
 |---|---|---|---|---|---|
 | Initiation | `{{STAGE_1_OBJECTIVES}}` | `{{STAGE_1_DELIVERABLES}}` | `{{STAGE_1_START}}` | `{{STAGE_1_END}}` | `{{STAGE_1_GATE}}` |
 | `{{STAGE_2}}` | `{{STAGE_2_OBJECTIVES}}` | `{{STAGE_2_DELIVERABLES}}` | `{{STAGE_2_START}}` | `{{STAGE_2_END}}` | `{{STAGE_2_GATE}}` |
-| Closure | Project closed and benefits handed over | Closure report, lessons learned | `{{CLOSURE_START}}` | `{{CLOSURE_END}}` | Sponsor sign-off |
+| Closure | `{{CLOSURE_OBJECTIVES}}` | `{{CLOSURE_DELIVERABLES}}` | `{{CLOSURE_START}}` | `{{CLOSURE_END}}` | `{{CLOSURE_GATE}}` |
 
 ## Governance Cadence
 
@@ -57,12 +57,16 @@ Define the baseline for planning, controls, delivery approach, and governance, f
 
 ## Planning Baselines
 
+PRINCE2 2023 mandates six performance targets. All six must be baselined at project initiation. Omitting any baseline means the project board cannot authorise work or escalate exceptions for that dimension.
+
 | Dimension | Baseline | Tolerance | Change Authority |
 |---|---|---|---|
 | Time | `{{TIME_BASELINE}}` | ± `{{TIME_TOLERANCE}}` | `{{TIME_CHANGE_AUTHORITY}}` |
 | Cost | `{{COST_BASELINE}}` | ± `{{COST_TOLERANCE}}` | `{{COST_CHANGE_AUTHORITY}}` |
 | Scope | `{{SCOPE_BASELINE}}` | `{{SCOPE_TOLERANCE}}` | `{{SCOPE_CHANGE_AUTHORITY}}` |
 | Quality | `{{QUALITY_CRITERIA}}` | `{{QUALITY_TOLERANCE}}` | `{{QUALITY_AUTHORITY}}` |
+| Benefits | `{{BENEFITS_BASELINE}}` — key metric: `{{BENEFITS_KEY_METRIC}}` | `{{BENEFITS_TOLERANCE}}` | `{{BENEFITS_AUTHORITY}}` |
+| Risk | Risk appetite: `{{RISK_APPETITE_STATEMENT}}` | `{{RISK_TOLERANCE_THRESHOLD}}` | `{{RISK_AUTHORITY}}` |
 
 ## Risk and Issue Management
 

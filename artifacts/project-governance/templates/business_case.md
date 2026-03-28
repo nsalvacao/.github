@@ -4,7 +4,7 @@ artifact_type: template
 status: draft
 visibility: public
 classification: public
-owner: GOVERNANCE
+owner: "{{GOVERNANCE_OWNER}}"
 review_cadence: quarterly
 applies_to: initiative justification and value framing
 source_basis: PMI, PRINCE2
@@ -57,6 +57,28 @@ Capture why the initiative should exist, what value it creates, and what cost or
 | `{{BENEFIT_ID_2}}` | `{{BENEFIT_DESC_2}}` | `{{BENEFIT_METRIC_2}}` | `{{BASELINE_2}}` | `{{TARGET_2}}` | `{{REALIZATION_DATE_2}}` | `{{BENEFIT_OWNER_2}}` |
 
 Benefit type: `{{BENEFIT_TYPE}}` (Financial / Operational / Strategic / Social / Risk reduction)
+
+## Expected Dis-benefits
+
+PRINCE2 2023 mandates dis-benefits alongside benefits for a balanced business case. Dis-benefits are measurable negative outcomes that result from this initiative — not risks, but expected and accepted negative consequences (e.g., transition disruption, temporary productivity loss, decommissioning costs).
+
+| Dis-benefit ID | Description | Metric | Baseline | Expected Value | Timeframe | Owner |
+|---|---|---|---|---|---|---|
+| `{{DISBENEFIT_ID_1}}` | `{{DISBENEFIT_DESC_1}}` | `{{DISBENEFIT_METRIC_1}}` | `{{DISBENEFIT_BASELINE_1}}` | `{{DISBENEFIT_VALUE_1}}` | `{{DISBENEFIT_TIMEFRAME_1}}` | `{{DISBENEFIT_OWNER_1}}` |
+| `{{DISBENEFIT_ID_2}}` | `{{DISBENEFIT_DESC_2}}` | `{{DISBENEFIT_METRIC_2}}` | `{{DISBENEFIT_BASELINE_2}}` | `{{DISBENEFIT_VALUE_2}}` | `{{DISBENEFIT_TIMEFRAME_2}}` | `{{DISBENEFIT_OWNER_2}}` |
+
+## Timescale
+
+PRINCE2 2023 requires an explicit timescale section separate from the investment appraisal.
+
+| Milestone | Target Date | Notes |
+|---|---|---|
+| Project start | `{{PROJECT_START_DATE}}` | |
+| First benefit realisation | `{{FIRST_BENEFIT_DATE}}` | `{{FIRST_BENEFIT_NOTES}}` |
+| Full benefits realisation | `{{FULL_BENEFITS_DATE}}` | `{{FULL_BENEFITS_NOTES}}` |
+| Project close | `{{PROJECT_CLOSE_DATE}}` | |
+
+Overall duration: `{{PROJECT_DURATION}}`
 
 ## Investment Appraisal
 

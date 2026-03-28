@@ -4,7 +4,7 @@ artifact_type: template
 status: draft
 visibility: public
 classification: public
-owner: GOVERNANCE
+owner: "{{GOVERNANCE_OWNER}}"
 review_cadence: quarterly
 applies_to: project authorization and scope framing
 source_basis: PMI, PRINCE2
@@ -55,6 +55,17 @@ Formally authorize the project, define its scope, and identify the accountable o
 | `{{OBJECTIVE_1}}` | `{{SUCCESS_CRITERION_1}}` | `{{MEASUREMENT_1}}` | `{{TARGET_DATE_1}}` |
 | `{{OBJECTIVE_2}}` | `{{SUCCESS_CRITERION_2}}` | `{{MEASUREMENT_2}}` | `{{TARGET_DATE_2}}` |
 
+## High-Level Requirements
+
+PMBOK 7 requires high-level requirements in the charter to establish scope boundaries and drive later detailed requirements work. These are not detailed specifications — they are the non-negotiable conditions the project must satisfy.
+
+| Req ID | Requirement Description | Category | Priority | Source |
+|---|---|---|---|---|
+| `{{REQ_ID_1}}` | `{{REQ_DESCRIPTION_1}}` | `{{REQ_CATEGORY_1}}` (Functional / Non-functional / Regulatory / Quality) | `{{REQ_PRIORITY_1}}` (Must / Should / Could) | `{{REQ_SOURCE_1}}` |
+| `{{REQ_ID_2}}` | `{{REQ_DESCRIPTION_2}}` | `{{REQ_CATEGORY_2}}` | `{{REQ_PRIORITY_2}}` | `{{REQ_SOURCE_2}}` |
+
+Detailed requirements: `{{REQUIREMENTS_DOCUMENT_LINK}}`
+
 ## Scope
 
 **In scope**:
@@ -93,6 +104,19 @@ Formally authorize the project, define its scope, and identify the accountable o
 | Quality | `{{QUALITY_TOLERANCE}}` | Below this → Exception Report |
 | Risk | `{{RISK_TOLERANCE}}` | Exceeds → Escalate to `{{SPONSOR}}` |
 | Benefits | `{{BENEFITS_TOLERANCE}}` | Below this → Benefits Review |
+
+## Key Risks Summary
+
+PMBOK 7 requires a risks summary in the charter so that authorising bodies understand the risk profile at sign-off. List the top 3–5 risks; full details in the Risk Register.
+
+| Risk ID | Risk Description | Probability | Impact | Mitigation Owner |
+|---|---|---|---|---|
+| `{{RISK_ID_1}}` | `{{RISK_DESCRIPTION_1}}` | `{{RISK_PROB_1}}` (H/M/L) | `{{RISK_IMPACT_1}}` (H/M/L) | `{{RISK_OWNER_1}}` |
+| `{{RISK_ID_2}}` | `{{RISK_DESCRIPTION_2}}` | `{{RISK_PROB_2}}` | `{{RISK_IMPACT_2}}` | `{{RISK_OWNER_2}}` |
+
+Risk tolerance: `{{RISK_TOLERANCE_STATEMENT}}`
+
+Full Risk Register: `{{RISK_REGISTER_LINK}}`
 
 ## Key Stakeholders
 

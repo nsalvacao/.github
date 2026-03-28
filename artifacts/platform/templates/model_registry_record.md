@@ -4,7 +4,7 @@ artifact_type: template
 status: draft
 visibility: public
 classification: public
-owner: platform-governance
+owner: "{{PLATFORM_OWNER}}"
 review_cadence: quarterly
 applies_to: repositories that register models or model-like AI assets
 source_basis: Microsoft and Google model registry guidance
@@ -88,7 +88,18 @@ Performance by subgroup (disaggregated evaluation):
 - **Risks identified**: `{{ETHICAL_RISKS}}`
 - **Mitigation strategies**: `{{MITIGATION_STRATEGIES}}`
 - **Recommended safeguards**: `{{RECOMMENDED_SAFEGUARDS}}`
-- **Use NOT recommended for**: `{{PROHIBITED_USES}`
+- **Use NOT recommended for**: `{{PROHIBITED_USES}}`
+
+### Known Limitations
+
+Model Card 2.0 (Gebru et al.) requires explicit documentation of known limitations. This section is non-optional: undisclosed limitations create fairness, safety, and compliance risk for downstream consumers of this model.
+
+| Limitation ID | Description | Affected Inputs / Conditions | Severity | Mitigation / Workaround | Status |
+|---|---|---|---|---|---|
+| `{{LIMITATION_ID_1}}` | `{{LIMITATION_DESC_1}}` | `{{LIMITATION_CONDITION_1}}` | `{{LIMITATION_SEVERITY_1}}` (High / Medium / Low) | `{{LIMITATION_MITIGATION_1}}` | `{{LIMITATION_STATUS_1}}` (Known / Under investigation / Accepted) |
+| `{{LIMITATION_ID_2}}` | `{{LIMITATION_DESC_2}}` | `{{LIMITATION_CONDITION_2}}` | `{{LIMITATION_SEVERITY_2}}` | `{{LIMITATION_MITIGATION_2}}` | `{{LIMITATION_STATUS_2}}` |
+
+Common limitation categories to consider: distributional shift (model trained on data that doesn't represent deployment context), edge cases (inputs where model fails silently), demographic performance gaps (subgroup underperformance), language/locale gaps, temporal decay (model trained on stale data).
 
 ## Lineage and Traceability
 

@@ -62,6 +62,20 @@ Activities performed BEFORE an incident occurs:
 | SEV3 | `{{SEV3_CRITERIA}}` (e.g., partial degradation, workaround available) | No | Optional | `{{SEV3_RESPONSE_SLA}}` |
 | SEV4 | `{{SEV4_CRITERIA}}` (e.g., minor issue, no user impact) | No | No | `{{SEV4_RESPONSE_SLA}}` |
 
+### Evidence Preservation
+
+NIST SP 800-61r2 mandates evidence collection and preservation during Detection & Analysis. Evidence collected here supports root cause analysis, postmortems, and potential legal or regulatory proceedings.
+
+| Evidence Source | Collection Method | Storage Location | Retention Period | Owner |
+|---|---|---|---|---|
+| Application logs | `{{LOG_COLLECTION_CMD}}` (e.g., `kubectl logs`, cloud log export) | `{{LOG_STORAGE_LOCATION}}` | `{{LOG_RETENTION}}` | `{{LOG_OWNER}}` |
+| Infrastructure metrics | Snapshot from `{{METRICS_PLATFORM}}` | `{{METRICS_SNAPSHOT_LOCATION}}` | `{{METRICS_RETENTION}}` | `{{METRICS_OWNER}}` |
+| Network traffic / traces | `{{TRACE_COLLECTION_METHOD}}` | `{{TRACE_STORAGE_LOCATION}}` | `{{TRACE_RETENTION}}` | `{{TRACE_OWNER}}` |
+| Configuration state | `{{CONFIG_SNAPSHOT_CMD}}` | `{{CONFIG_STORAGE_LOCATION}}` | `{{CONFIG_RETENTION}}` | `{{CONFIG_OWNER}}` |
+| `{{ADDITIONAL_EVIDENCE_SOURCE}}` | `{{ADDITIONAL_EVIDENCE_METHOD}}` | `{{ADDITIONAL_STORAGE}}` | `{{ADDITIONAL_RETENTION}}` | `{{ADDITIONAL_OWNER}}` |
+
+Preservation rules: do NOT modify or delete any evidence source during active response. If containment requires disabling a component, snapshot its state first.
+
 ### Initial Triage Steps
 
 1. Acknowledge alert in `{{ALERTING_TOOL}}`
