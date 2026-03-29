@@ -174,13 +174,19 @@
                 const rawUrl = `https://raw.githubusercontent.com/nsalvacao/${REPO_NAME}/main/README.md`;
                 console.log('Fetching README from:', rawUrl);
                 
-                let response = await fetch(rawUrl);
-                if (!response.ok) {
-                    console.warn('Raw fetch failed, trying relative path...');
+                let response;
+                try {
+                    response = await fetch(rawUrl);
+                } catch (e) {
+                    console.warn('Network error during raw fetch, will try relative path.', e);
+                }
+                
+                if (!response || !response.ok) {
+                    console.warn('Raw fetch failed or was not ok, trying relative path...');
                     response = await fetch('../README.md');
                 }
                 
-                if (!response.ok) throw new Error('Could not reach README.md source');
+                if (!response || !response.ok) throw new Error('Could not reach README.md source');
                 
                 const markdown = await response.text();
                 console.log('README content received, length:', markdown.length);
@@ -240,14 +246,25 @@
             const lines = block.trim().split('\n');
             const items = [];
             
-            lines.forEach(line => {
-                if (!line.includes('|') || line.includes('---|') || line.toLowerCase().includes('| document |') || line.toLowerCase().includes('| artifact |')) return;
+            // Find the index of the separator line (contains '---|')
+            let sepIndex = -1;
+            for (let i = 0; i < lines.length; i++) {
+                if (lines[i].includes('---|')) {
+                    sepIndex = i;
+                    break;
+                }
+            }
+            
+            lines.forEach((line, idx) => {
+                // Ignore non-table lines, the separator, and the header line (usually exactly before the separator)
+                if (!line.includes('|') || idx === sepIndex || idx === sepIndex - 1) return;
                 
                 const cols = line.split('|').filter((_, i, a) => i > 0 && i < a.length - 1).map(c => c.trim());
                 
                 if (cols.length >= 4) {
                     const titleRaw = cols[0];
-                    const cleanTitle = titleRaw.includes('[') ? titleRaw.match(/\[(.*?)\]/)[1] : titleRaw;
+                    const titleMatch = titleRaw.match(/\[(.*?)\]/);
+                    const cleanTitle = titleMatch ? titleMatch[1] : titleRaw.trim();
                     const path = extractLink(line);
                     
                     if (isSupporting) {
