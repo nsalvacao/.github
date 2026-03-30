@@ -1,7 +1,7 @@
 ---
 title: "{{DECISION_TITLE}}"
 artifact_type: decision_log_entry
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER}}"
@@ -13,7 +13,7 @@ source_manifests:
   - platform__aws_well_architected.md
   - platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 decision_log_id: "DL-{{DECISION_SEQUENCE}}"
 decision_date: "{{DECISION_DATE}}"
 linked_adr: "{{ADR_REFERENCE}}"

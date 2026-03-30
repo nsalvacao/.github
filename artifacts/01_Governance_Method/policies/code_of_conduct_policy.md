@@ -1,7 +1,7 @@
 ---
 title: Code of Conduct Policy
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -11,7 +11,7 @@ source_basis: Contributor Covenant 2.1 (contributor-covenant.org/version/2/1/cod
 source_manifests:
   - governance__github_docs.md
 alignment_mode: direct-adaptation
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Policy Scope

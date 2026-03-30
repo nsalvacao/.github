@@ -1,7 +1,7 @@
 ---
 title: Repository Overview
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -11,7 +11,7 @@ source_basis: GitHub Docs repository README guidance and open source repository 
 source_manifests:
   - governance__github_docs.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

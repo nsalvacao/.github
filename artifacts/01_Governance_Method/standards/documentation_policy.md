@@ -1,7 +1,7 @@
 ---
 title: Documentation Policy
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -12,7 +12,7 @@ source_manifests:
   - governance__github_docs.md
   - documentation__diataxis.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Policy Statement

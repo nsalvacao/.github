@@ -1,7 +1,7 @@
 ---
 title: Trade-off Analysis Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: architecture-platform
@@ -12,7 +12,7 @@ source_manifests:
   - platform__aws_well_architected.md
   - platform__microsoft_learn.md
 alignment_mode: direct-adaptation
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

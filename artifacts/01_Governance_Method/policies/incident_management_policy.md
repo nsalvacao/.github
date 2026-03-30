@@ -1,7 +1,7 @@
 ---
 title: Incident Management Policy
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -13,7 +13,7 @@ source_manifests:
   - operations__google_sre.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Policy Statement

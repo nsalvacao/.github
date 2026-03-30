@@ -1,7 +1,7 @@
 ---
 title: Security Requirements Record Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: architecture-platform
@@ -12,7 +12,7 @@ source_manifests:
   - platform__microsoft_learn.md
   - operations__nist_cisa.md
 alignment_mode: direct-adaptation
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
