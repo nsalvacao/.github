@@ -73,6 +73,6 @@ Quadrant mapping for prioritisation:
 ## Source Attribution
 
 - Source manifests: `project__pmi.md`
-- Primary source basis: PMI stakeholder management guidance
+- Primary source basis: PMI stakeholder engagement and register guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

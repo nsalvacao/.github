@@ -109,4 +109,4 @@ A handoff without a checklist is not a handoff. Incomplete handoffs are the lead
 - Source manifests: operations__google_sre.md, operations__nist_incident_response.md
 - Primary source basis: Google SRE Workbook on-call chapter and NIST escalation conventions
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -7,7 +7,7 @@ classification: public
 owner: governance@org
 review_cadence: quarterly
 applies_to: planning and uncertainty management
-source_basis: Assumption-based planning (PMI PMBOK) + Lean Startup validated learning
+source_basis: PMI assumption and planning semantics + Lean Startup validated learning
 source_manifests:
   - project__pmi.md
   - method__lean_startup.md
@@ -83,6 +83,6 @@ Prioritise critical assumption validation above feature delivery. An unvalidated
 ## Source Attribution
 
 - Source manifests: `project__pmi.md`, `method__lean_startup.md`
-- Primary source basis: Assumption-based planning (PMI PMBOK 7th edition) + Lean Startup validated learning (Ries, 2011)
+- Primary source basis: PMI planning semantics + Lean Startup validated learning public method guidance
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

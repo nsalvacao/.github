@@ -81,6 +81,6 @@ Track whether expected benefits were achieved and sustained, providing traceabil
 ## Source Attribution
 
 - Source manifests: `project__pmi.md`, `project__prince2.md`
-- Primary source basis: PMI and PRINCE2 benefits realization guidance
+- Primary source basis: PMI and PRINCE2 benefits realization and review guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

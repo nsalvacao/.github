@@ -10,9 +10,8 @@ applies_to: coordination playbook
 source_basis: Google SRE Incident Management Guide
 source_manifests:
   - operations__google_sre.md
-  - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Playbook Metadata
@@ -98,7 +97,7 @@ Escalation path: `{{OPERATIONS_LEAD}}` → `{{INCIDENT_COMMANDER}}` → `{{MANAG
 | SEV2 | Every `{{SEV2_INTERNAL_CADENCE}}` | Every `{{SEV2_EXTERNAL_CADENCE}}` | Within `{{SEV2_ESCALATION_SLA}}` |
 
 ## Source Attribution
-- Source manifests: `operations__google_sre.md`, `operations__nist_incident_response.md`
+- Source manifests: `operations__google_sre.md`
 - Primary source basis: Google SRE Incident Management Guide
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

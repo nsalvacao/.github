@@ -7,12 +7,11 @@ classification: public
 owner: "{{OWNER_NAME}}"
 review_cadence: quarterly
 applies_to: stable operational processes
-source_basis: ISO 9001 quality management system structure and Google SRE operational practice
+source_basis: Structured operational procedure guidance and Google SRE operational practice
 source_manifests:
   - operations__google_sre.md
-  - operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
@@ -140,6 +139,6 @@ Maintain a complete change history. Every change must state what changed and why
 ## Source Attribution
 
 - Source manifests: operations__google_sre.md
-- Primary source basis: ISO 9001 quality management system structure and Google SRE operational practice
+- Primary source basis: Structured operational procedure guidance and Google SRE operational practice
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

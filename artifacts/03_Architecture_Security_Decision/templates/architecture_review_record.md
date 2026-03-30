@@ -10,7 +10,6 @@ applies_to: formal architecture review outcomes and review evidence
 source_basis: arc42 architecture documentation (arc42.org); AWS Well-Architected Framework review practices
 source_manifests:
   - architecture__arc42.md
-  - platform__microsoft_architecture.md
   - platform__aws_well_architected.md
 alignment_mode: direct-adaptation
 updated: 2026-03-30
@@ -118,7 +117,7 @@ State the overall verdict and required follow-up actions.
 
 ## Source Attribution
 
-- Source manifests: `architecture__arc42.md`, `platform__microsoft_architecture.md`, `platform__aws_well_architected.md`
+- Source manifests: `architecture__arc42.md`, `platform__aws_well_architected.md`
 - Primary source basis: arc42 architecture documentation (arc42.org); AWS Well-Architected Framework review practices
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

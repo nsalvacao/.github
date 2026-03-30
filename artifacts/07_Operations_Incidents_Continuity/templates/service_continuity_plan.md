@@ -10,9 +10,6 @@ applies_to: service continuity and disaster recovery planning
 source_basis: ISO 22301:2019
 source_manifests:
   - operations__iso_22301.md
-  - operations__nist_continuity.md
-  - operations__google_sre.md
-  - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -129,7 +126,7 @@ Test results must be recorded using the exercise drill record template. Material
 
 ## Source Attribution
 
-- Source manifests: `operations__iso_22301.md`, `operations__nist_continuity.md`, `operations__google_sre.md`, `platform__aws_well_architected.md`
+- Source manifests: `operations__iso_22301.md`
 - Primary source basis: ISO 22301:2019 clause 8.4
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

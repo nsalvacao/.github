@@ -10,7 +10,6 @@ applies_to: release communication and public change history
 source_basis: Keep a Changelog format and Conventional Commits specification
 source_manifests:
   - operations__google_sre.md
-  - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---

@@ -10,7 +10,7 @@ applies_to: recovery playbook
 source_basis: NIST SP 800-61r3, Google SRE
 source_manifests: operations__nist_incident_response.md, operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Playbook Metadata
@@ -103,4 +103,4 @@ Failover procedure (if applicable): `{{FAILOVER_RUNBOOK_LINK}}`
 - Source manifests: `operations__nist_incident_response.md`, `operations__google_sre.md`
 - Primary source basis: NIST SP 800-61r3, Google SRE Incident Management Guide
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

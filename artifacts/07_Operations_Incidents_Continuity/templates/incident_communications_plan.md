@@ -12,7 +12,7 @@ source_manifests:
   - operations__google_sre.md
   - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Communications Context
@@ -149,4 +149,4 @@ Record every communication sent during the incident. This log is required for th
 - Source manifests: operations__google_sre.md, operations__nist_incident_response.md
 - Primary source basis: Google SRE communication guidance and NIST incident response guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

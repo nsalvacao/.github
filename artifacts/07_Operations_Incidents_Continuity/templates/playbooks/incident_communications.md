@@ -10,9 +10,8 @@ applies_to: communications playbook
 source_basis: Google SRE Incident Management Guide and PagerDuty Incident Response communications practices
 source_manifests:
   - operations__google_sre.md
-  - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
@@ -126,7 +125,7 @@ The communications log is required input for the post-incident review and any cu
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `operations__nist_incident_response.md`
+- Source manifests: `operations__google_sre.md`
 - Primary source basis: Google SRE Incident Management Guide and PagerDuty Incident Response communications practices
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

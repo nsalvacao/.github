@@ -143,6 +143,6 @@ List threats where the residual risk (after mitigations) is accepted rather than
 ## Source Attribution
 
 - Source manifests: `platform__microsoft_security.md`, `security__owasp_threat_modeling.md`
-- Primary source basis: Microsoft STRIDE threat modeling; OWASP Threat Modeling (owasp.org/www-community/Threat_Modeling)
+- Primary source basis: Microsoft STRIDE threat modeling guidance and OWASP Threat Modeling public guidance
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

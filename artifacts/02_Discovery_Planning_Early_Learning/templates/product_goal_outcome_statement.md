@@ -7,7 +7,7 @@ classification: public
 owner: governance@org
 review_cadence: quarterly
 applies_to: goal definition and outcome framing
-source_basis: Scrum Guide 2020 Product Goal + OKR outcome-oriented planning
+source_basis: Scrum Product Goal + OKR-style outcome planning
 source_manifests:
   - method__scrum_guide.md
   - method__okr.md
@@ -93,6 +93,6 @@ The Product Owner is accountable for the Product Goal. Key Results are reviewed 
 ## Source Attribution
 
 - Source manifests: `method__scrum_guide.md`, `method__okr.md`
-- Primary source basis: Scrum Guide 2020 (Product Goal) + OKR framework (Doerr, *Measure What Matters*, 2018)
+- Primary source basis: Scrum Product Goal guidance + public OKR outcome-planning guidance
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

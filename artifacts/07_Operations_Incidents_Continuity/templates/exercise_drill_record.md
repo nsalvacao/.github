@@ -11,7 +11,6 @@ source_basis: NIST SP 800-34 Rev. 1, ISO 22301:2019
 source_manifests:
   - operations__nist_continuity.md
   - operations__iso_22301.md
-  - operations__google_sre.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -123,7 +122,7 @@ Document the next exercise to maintain continuity of the testing programme. The 
 
 ## Source Attribution
 
-- Source manifests: `operations__nist_continuity.md`, `operations__iso_22301.md`, `operations__google_sre.md`
+- Source manifests: `operations__nist_continuity.md`, `operations__iso_22301.md`
 - Primary source basis: NIST SP 800-34 Rev. 1 section 3.5, ISO 22301:2019 section 8.5
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

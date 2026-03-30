@@ -77,4 +77,4 @@ All personnel with roles in contingency plan execution must complete initial tra
 - Source manifests: `operations__nist_continuity.md`
 - Primary source basis: NIST SP 800-34 Rev. 1 sections 3–6
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

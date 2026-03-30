@@ -7,7 +7,7 @@ classification: public
 owner: governance@org
 review_cadence: quarterly
 applies_to: research, experimentation, and learning loops
-source_basis: Lean Startup Build-Measure-Learn + Google SRE experimentation practices
+source_basis: Lean Startup experimentation with SRE-style measurement discipline
 source_manifests:
   - method__lean_startup.md
   - operations__google_sre.md
@@ -111,6 +111,6 @@ Every experiment must end in a decision. "We need more data" is not a decision â
 ## Source Attribution
 
 - Source manifests: `method__lean_startup.md`, `operations__google_sre.md`
-- Primary source basis: Lean Startup Build-Measure-Learn (Ries, 2011) + Google SRE operational experimentation practices
+- Primary source basis: Lean Startup experimentation guidance + Google SRE measurement and learning discipline
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

@@ -104,6 +104,6 @@ A PRR is required for:
 ## Source Attribution
 
 - Source manifests: `operations__google_sre.md`, `platform__aws_well_architected.md`
-- Primary source basis: Google SRE Production Readiness Review, AWS ORR, Microsoft Learn deployment guidance
+- Primary source basis: Google SRE Production Readiness Review and AWS operational readiness guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

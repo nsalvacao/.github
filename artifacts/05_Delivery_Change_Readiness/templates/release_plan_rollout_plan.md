@@ -10,7 +10,6 @@ applies_to: release planning and rollout execution
 source_basis: DORA four key metrics and SRE Workbook progressive delivery
 source_manifests:
   - operations__google_sre.md
-  - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---

@@ -115,6 +115,6 @@ Overall duration: `{{PROJECT_DURATION}}`
 ## Source Attribution
 
 - Source manifests: `project__pmi.md`, `project__prince2.md`
-- Primary source basis: PMI and PRINCE2 business justification guidance
+- Primary source basis: PMI and PRINCE2 business justification and value-case guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30
