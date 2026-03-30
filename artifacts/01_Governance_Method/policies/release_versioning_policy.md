@@ -7,10 +7,9 @@ classification: public
 owner: "{{OWNER_NAME}}"
 review_cadence: quarterly
 applies_to: release and version management
-source_basis: Semantic Versioning 2.0.0 (semver.org) and Conventional Commits 1.0.0
+source_basis: Semantic Versioning 2.0.0, Conventional Commits 1.0.0, and release notes / change log publication conventions
 source_manifests:
-  - governance__github_docs.md
-  - operations__google_sre.md
+  - delivery__release_communication.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -127,7 +126,7 @@ Before every release, the release owner must confirm that a rollback procedure e
 
 ## Source Attribution
 
-- Source manifests: governance__github_docs.md, operations__google_sre.md
-- Primary source basis: Semantic Versioning 2.0.0 (semver.org) and Conventional Commits 1.0.0
+- Source manifests: delivery__release_communication.md
+- Primary source basis: Semantic Versioning 2.0.0, Conventional Commits 1.0.0, and release notes / change log publication conventions
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

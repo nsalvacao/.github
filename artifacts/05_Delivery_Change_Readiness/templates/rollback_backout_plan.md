@@ -10,7 +10,6 @@ applies_to: rollback planning and recovery
 source_basis: SRE Workbook rollback and recovery practices
 source_manifests:
   - operations__google_sre.md
-  - platform__aws_well_architected.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---
@@ -154,7 +153,7 @@ A post-rollback review must be initiated within `{{PIR_TRIGGER_WINDOW}}` of roll
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `platform__aws_well_architected.md`
+- Source manifests: `operations__google_sre.md`
 - Primary source basis: SRE Workbook rollback and recovery practices
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

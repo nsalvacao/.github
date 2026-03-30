@@ -7,7 +7,7 @@ classification: public
 owner: "{{DELIVERY_OWNER}}"
 review_cadence: quarterly
 applies_to: release readiness checks
-source_basis: Standard pre/during/post deployment gates aligned with SRE and DORA practices
+source_basis: Standard pre/during/post deployment gates aligned with Google SRE and DORA practices
 source_manifests:
   - operations__google_sre.md
 alignment_mode: guided-synthesis
@@ -124,6 +124,6 @@ The release manager must confirm all blocking items are resolved before the chan
 ## Source Attribution
 
 - Source manifests: `operations__google_sre.md`
-- Primary source basis: Standard pre/during/post deployment gates aligned with SRE and DORA practices
+- Primary source basis: Standard pre/during/post deployment gates aligned with Google SRE and DORA practices
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

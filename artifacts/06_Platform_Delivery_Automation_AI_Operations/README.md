@@ -7,7 +7,7 @@ classification: public
 owner: platform-governance
 review_cadence: quarterly
 applies_to: repositories that need reusable delivery, GitOps, MLOps, and AI operations artifacts
-source_basis: Public catalog coverage wave for platform delivery and AI operations
+source_basis: GitOps, Microsoft architecture, Microsoft MLOps, AWS operational readiness, and OpenAI AI operations guidance for the platform catalog
 source_manifests:
   - platform__gitops.md
   - platform__microsoft_architecture.md

@@ -23,7 +23,7 @@
 
 ## Validation Contract
 
-- Supported source basis tokens: `GitHub Docs`, `GitHub Actions`, `GitHub environment`, `CODEOWNERS`, `issue forms`, `pull request template`, `Open Source Guides`
+- Supported source basis tokens: `GitHub Docs`, `GitHub Actions`, `GitHub environment`, `CODEOWNERS`, `issue forms`, `pull request template`, `Open Source Guides`, `community health`, `code of conduct`, `repository governance`
 - Allowed dimensions: `01_Governance_Method`, `04_Quality_Review_Control`, `06_Platform_Delivery_Automation_AI_Operations`, `08_Knowledge_Documentation_Continuous_Improvement`, `10_Risk_Exceptions_Traceability`
 - Authority level: `implementation-guidance`
 

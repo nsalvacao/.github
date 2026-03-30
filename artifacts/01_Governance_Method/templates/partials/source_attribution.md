@@ -7,7 +7,7 @@ classification: public
 owner: governance-team
 review_cadence: quarterly
 applies_to: governance artifacts
-source_basis: governance__github_docs
+source_basis: GitHub Docs repository governance and source attribution conventions
 source_manifests: governance__github_docs.md
 alignment_mode: direct-adaptation
 updated: 2026-03-30

@@ -9,8 +9,7 @@ review_cadence: quarterly
 applies_to: repositories that need build and artifact traceability
 source_basis: SLSA (Supply-chain Levels for Software Artifacts) framework
 source_manifests:
-  - governance__github_docs.md
-  - platform__microsoft_architecture.md
+  - platform__slsa.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -90,7 +89,7 @@ Example: `cosign verify-attestation --type slsaprovenance --certificate-identity
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `platform__microsoft_architecture.md`
+- Source manifests: `platform__slsa.md`
 - Primary source basis: SLSA (Supply-chain Levels for Software Artifacts) framework
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

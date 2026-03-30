@@ -7,7 +7,7 @@ classification: public
 owner: platform-governance
 review_cadence: quarterly
 applies_to: repositories with automated deployment or promotion flows
-source_basis: GitHub and Microsoft deployment automation guidance
+source_basis: GitHub Actions and Microsoft deployment automation guidance
 source_manifests:
   - governance__github_docs.md
   - platform__microsoft_architecture.md
@@ -97,6 +97,6 @@ Gates that MUST pass before promotion to next stage:
 ## Source Attribution
 
 - Source manifests: `governance__github_docs.md`, `platform__microsoft_architecture.md`
-- Primary source basis: GitHub and Microsoft deployment automation guidance
+- Primary source basis: GitHub Actions and Microsoft deployment automation guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

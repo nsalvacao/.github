@@ -7,10 +7,9 @@ classification: public
 owner: platform-governance
 review_cadence: quarterly
 applies_to: repositories that monitor deployed models or AI systems
-source_basis: Microsoft and Google model monitoring guidance
+source_basis: Microsoft Learn MLOps model monitoring guidance and Google model monitoring practices
 source_manifests:
   - platform__microsoft_mlops.md
-  - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -89,7 +88,7 @@ Ground truth lag: `{{GROUND_TRUTH_LAG}}` (delay between prediction and label ava
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_mlops.md`, `platform__aws_well_architected.md`
-- Primary source basis: model monitoring and drift guidance
+- Source manifests: `platform__microsoft_mlops.md`
+- Primary source basis: Microsoft Learn MLOps model monitoring guidance and Google model monitoring practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

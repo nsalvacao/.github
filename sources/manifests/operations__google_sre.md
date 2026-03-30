@@ -21,7 +21,7 @@
 
 ## Validation Contract
 
-- Supported source basis tokens: `Google SRE`, `SRE Workbook`, `postmortem`, `error budget`, `production readiness`, `incident management`, `rollback`, `service review`
+- Supported source basis tokens: `Google SRE`, `SRE Workbook`, `postmortem`, `error budget`, `production readiness`, `incident management`, `rollback`, `service review`, `DORA`, `deployment gates`, `change communication`, `on-call`, `measurement discipline`, `continuous improvement`
 - Allowed dimensions: `01_Governance_Method`, `02_Discovery_Planning_Early_Learning`, `04_Quality_Review_Control`, `05_Delivery_Change_Readiness`, `07_Operations_Incidents_Continuity`, `08_Knowledge_Documentation_Continuous_Improvement`, `09_Project_Portfolio_Service_Governance`, `10_Risk_Exceptions_Traceability`
 - Authority level: `implementation-guidance`
 

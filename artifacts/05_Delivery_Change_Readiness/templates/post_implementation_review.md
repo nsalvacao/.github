@@ -10,7 +10,6 @@ applies_to: post-release and implementation review
 source_basis: GOV.UK PIR structure and ITIL 4 continual improvement practice
 source_manifests:
   - service_mgmt__itil.md
-  - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---
@@ -153,7 +152,7 @@ The PIR is not closed until all high-priority action items have owners and due d
 
 ## Source Attribution
 
-- Source manifests: `service_mgmt__itil.md`, `operations__google_sre.md`
+- Source manifests: `service_mgmt__itil.md`
 - Primary source basis: GOV.UK PIR structure and ITIL 4 continual improvement practice
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

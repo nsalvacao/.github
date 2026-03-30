@@ -5,6 +5,7 @@ import argparse
 import json
 import re
 from collections import defaultdict
+from functools import lru_cache
 from pathlib import Path
 from typing import Iterable, Sequence, Tuple
 
@@ -74,9 +75,12 @@ SOURCE_FAMILY_RULES = [
     (re.compile(r"\bNIST SP 800-61(?:r3| Rev\. 3)?\b", re.IGNORECASE), {"operations__nist_incident_response.md"}),
     (re.compile(r"\bNIST SP 800-34(?: Rev\. 1)?\b", re.IGNORECASE), {"operations__nist_continuity.md"}),
     (re.compile(r"\bISO 22301(?::2019)?\b", re.IGNORECASE), {"operations__iso_22301.md"}),
+    (re.compile(r"\bNIST risk management\b|\bNIST RMF\b|\bSP 800-37\b|control exception handling|control tailoring", re.IGNORECASE), {"risk__nist_rmf.md"}),
+    (re.compile(r"\bNIST auditability\b|\bNIST traceability\b|\bSP 800-92\b|audit trail|log management", re.IGNORECASE), {"governance__nist_auditability.md"}),
     (re.compile(r"\bITIL(?: 4)?\b", re.IGNORECASE), {"service_mgmt__itil.md"}),
     (re.compile(r"\bPMI\b|\bPMBOK\b", re.IGNORECASE), {"project__pmi.md"}),
     (re.compile(r"\bPRINCE2\b", re.IGNORECASE), {"project__prince2.md"}),
+    (re.compile(r"Keep a Changelog|Conventional Commits|release notes|change log", re.IGNORECASE), {"delivery__release_communication.md"}),
     (re.compile(r"\bScrum Guide\b|\bSprint Planning\b|\bProduct Backlog\b|\bProduct Goal\b", re.IGNORECASE), {"method__scrum_guide.md"}),
     (re.compile(r"\bOKR\b|Objectives and Key Results|outcome-oriented planning", re.IGNORECASE), {"method__okr.md"}),
     (re.compile(r"\bLean Startup\b|Build-Measure-Learn|validated learning", re.IGNORECASE), {"method__lean_startup.md"}),
@@ -88,7 +92,7 @@ SOURCE_FAMILY_RULES = [
     (re.compile(r"\bSTRIDE\b|Microsoft threat modeling|Microsoft STRIDE", re.IGNORECASE), {"platform__microsoft_security.md"}),
     (re.compile(r"NIST AI Risk Management Framework|NIST AI RMF|EU AI Act|Article 13", re.IGNORECASE), {"ai_gov__nist_ai_rmf_eu_ai_act.md"}),
     (re.compile(r"\bMLOps\b|\bGenAIOps\b|Azure Machine Learning|Microsoft AI guidance|Microsoft model|Microsoft dataset", re.IGNORECASE), {"platform__microsoft_mlops.md"}),
-    (re.compile(r"Azure Architecture Center|Azure Well-Architected|Cloud Adoption Framework|Microsoft architecture|Microsoft governance practices", re.IGNORECASE), {"platform__microsoft_architecture.md"}),
+    (re.compile(r"Azure Architecture Center|Azure Well-Architected|Cloud Adoption Framework|Microsoft architecture|Microsoft governance practices|Microsoft deployment automation guidance", re.IGNORECASE), {"platform__microsoft_architecture.md"}),
     (re.compile(r"\bMADR\b|Markdown Architectural Decision Records", re.IGNORECASE), {"architecture__madr.md"}),
     (re.compile(r"\barc42\b", re.IGNORECASE), {"architecture__arc42.md"}),
     (re.compile(r"\bFMEA\b|IEC 60812|SAE J1739|failure mode analysis", re.IGNORECASE), {"quality__fmea.md"}),
@@ -150,6 +154,7 @@ def artifact_dimension(path: Path) -> str:
     return "root"
 
 
+@lru_cache(maxsize=1)
 def manifest_contracts() -> dict[str, dict[str, object]]:
     contracts: dict[str, dict[str, object]] = {}
     for path in sorted(PUBLIC_MANIFEST_DIR.glob("*.md")):
@@ -300,6 +305,8 @@ def validate_manifest_alignment(path: Path, content: str, fm_data: dict[str, obj
 
     dimension = artifact_dimension(path)
     source_basis = str(fm_data.get("source_basis", ""))
+    source_basis_lc = source_basis.lower()
+    matched_refs: set[str] = set()
     for ref in refs:
         contract = contracts.get(ref, {})
         if not contract:
@@ -308,10 +315,14 @@ def validate_manifest_alignment(path: Path, content: str, fm_data: dict[str, obj
         allowed_dimensions = [str(item) for item in contract.get("dimensions", [])]
         if dimension != "root" and allowed_dimensions and dimension not in allowed_dimensions:
             problems.append(f"manifest '{ref}' is out of allowed scope for dimension '{dimension}'")
-        if tokens and source_basis:
-            source_basis_lc = source_basis.lower()
-            if not any(token in source_basis_lc for token in tokens):
-                continue
+        if tokens and source_basis and any(token in source_basis_lc for token in tokens):
+            matched_refs.add(ref)
+
+    tokenized_refs = [
+        ref for ref in refs if contracts.get(ref, {}).get("tokens") and contracts.get(ref, {})
+    ]
+    if source_basis and tokenized_refs and not matched_refs:
+        problems.append("none of the referenced manifests match source_basis via supported source basis tokens")
 
     for pattern, accepted in SOURCE_FAMILY_RULES:
         if pattern.search(source_basis) and not (set(refs) & accepted):

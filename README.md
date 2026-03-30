@@ -146,13 +146,13 @@ Click on a dimension to explore its associated policies, standards, and template
 
 | Document | Nature | Public role | Primary source basis | Maturity | Canonical primary artifact |
 |---|---|---|---|---|---|
-| Discovery Brief / Problem Framing | Instantiable | Frames problem, goal, and constraints | Scrum Guide | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/discovery_brief.md) |
+| Discovery Brief / Problem Framing | Instantiable | Frames problem, goal, and constraints | Continuous discovery + user story mapping | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/discovery_brief.md) |
 | Product Goal / Outcome Statement | Instantiable | States the target product goal | Scrum Guide | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/product_goal_outcome_statement.md) |
 | Product Backlog | Instantiable | Inventory of prioritized future work | Scrum Guide | Public | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/product_backlog.md) |
 | Planning Record | Instantiable | Records cycle goal and scope decisions | Scrum Guide | Public | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/planning_record.md) |
-| Research / Experiment Log | Instantiable | Records hypotheses and observations | Google SRE | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/research_experiment_log.md) |
-| Assumptions Register | Instantiable | Makes unvalidated assumptions explicit | Microsoft Learn | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/assumptions_register.md) |
-| Technical Retrospective | Instantiable | Reviews an iteration or phase of work | Scrum Guide | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/technical_retrospective.md) |
+| Research / Experiment Log | Instantiable | Records hypotheses and observations | Lean Startup | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/research_experiment_log.md) |
+| Assumptions Register | Instantiable | Makes unvalidated assumptions explicit | PMI + Lean Startup | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/assumptions_register.md) |
+| Technical Retrospective | Instantiable | Reviews an iteration or phase of work | Scrum Guide + Norm Kerth retrospectives | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/technical_retrospective.md) |
 | Pre-mortem / Failure Scenario Review | Instantiable | Anticipates failure modes and impact | Google SRE | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/pre_mortem_failure_scenario_review.md) |
 | FMEA / Failure Mode Analysis | Instantiable | Preemptively analyzes mitigation | NIST | Public draft | [Artifact](./artifacts/02_Discovery_Planning_Early_Learning/templates/fmea_failure_mode_analysis.md) |
 
@@ -197,9 +197,9 @@ Click on a dimension to explore its associated policies, standards, and template
 | Release Checklist | Operational | Mandatory checks before publishing | GitHub Docs | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/release_checklist.md) |
 | Rollback / Backout Plan | Operational | Defines how to safely revert | Google SRE | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/rollback_backout_plan.md) |
 | Change Record | Instantiable | Records approved change and impact | NIST | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/change_record.md) |
-| Change Log / Release Notes | Evidence | Communicates what changed | GitHub Docs | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/change_log_release_notes.md) |
+| Change Log / Release Notes | Evidence | Communicates what changed | Keep a Changelog + Conventional Commits | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/change_log_release_notes.md) |
 | Change Communication | Instantiable | Defines message and channels | Google SRE | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/change_communication.md) |
-| Post-Implementation Review (PIR) | Evidence | Evaluates real outcomes | NIST | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/post_implementation_review.md) |
+| Post-Implementation Review (PIR) | Evidence | Evaluates real outcomes | GOV.UK PIR + ITIL 4 | Public | [Artifact](./artifacts/05_Delivery_Change_Readiness/templates/post_implementation_review.md) |
 
 </details>
 
@@ -239,10 +239,10 @@ Click on a dimension to explore its associated policies, standards, and template
 | Incident Timeline | Evidence | Preserves the chronology of events | Google SRE | Public | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/incident_timeline.md) |
 | Playbook | Operational | Guides triage and decision-making | AWS Docs | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/playbook.md) |
 | Runbook | Operational | Guides mitigation and recovery | Google SRE | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/runbook.md) |
-| SOP (Standard Op. Procedure) | Operational | Standardizes stable processes | NIST | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/standard_operating_procedure.md) |
+| SOP (Standard Op. Procedure) | Operational | Standardizes stable processes | Google SRE | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/standard_operating_procedure.md) |
 | Incident Communications Plan | Operational | Defines channels and stakeholders | Google SRE | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/incident_communications_plan.md) |
 | On-call & Escalation Guide | Operational | Explains handoffs and response | Google SRE | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/on_call_escalation_guide.md) |
-| Service Continuity Plan / DR | Operational | Defines recovery and ISCP | NIST | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/service_continuity_plan.md) |
+| Service Continuity Plan / DR | Operational | Defines recovery and ISCP | ISO 22301 | Public draft | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/service_continuity_plan.md) |
 | Exercise / Drill Record | Evidence | Records drills and extracted lessons | NIST | Public | [Artifact](./artifacts/07_Operations_Incidents_Continuity/templates/exercise_drill_record.md) |
 
 ### Supporting Artifacts
@@ -318,10 +318,10 @@ Click on a dimension to explore its associated policies, standards, and template
 
 | Document | Nature | Public role | Primary source basis | Maturity | Canonical primary artifact |
 |---|---|---|---|---|---|
-| Risk Register | Evidence | Tracks risks, impact, and mitigation | NIST | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/templates/risk_register.md) |
-| Exception / Deviation Record | Evidence | Records deliberate policy deviations | Microsoft Learn | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/templates/exception_deviation_record.md) |
+| Risk Register | Evidence | Tracks risks, impact, and mitigation | NIST RMF + Microsoft governance | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/templates/risk_register.md) |
+| Exception / Deviation Record | Evidence | Records deliberate policy deviations | NIST control exception handling + Microsoft governance | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/templates/exception_deviation_record.md) |
 | Security Advisory Record | Evidence | Records public advisories and remediation | GitHub Docs | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/templates/security_advisory_vulnerability_record.md) |
-| Audit Trail Policy | Normative | Defines minimum traceability rules | NIST | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/policies/audit_trail_policy.md) |
+| Audit Trail Policy | Normative | Defines minimum traceability rules | NIST auditability / log management | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/policies/audit_trail_policy.md) |
 | Metrics & Review Cadence | Normative | Establishes review moments for governance | Scrum Guide | Public | [Artifact](./artifacts/10_Risk_Exceptions_Traceability/standards/metrics_review_cadence.md) |
 
 </details>
