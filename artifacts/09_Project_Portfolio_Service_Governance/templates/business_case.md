@@ -1,7 +1,7 @@
 ---
 title: Business Case / Value Case
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{GOVERNANCE_OWNER}}"
@@ -12,7 +12,7 @@ source_manifests:
   - project__pmi.md
   - project__prince2.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # Business Case / Value Case

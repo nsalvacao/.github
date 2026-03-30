@@ -1,7 +1,7 @@
 ---
 title: Exception / Escalation Report
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: GOVERNANCE
@@ -11,7 +11,7 @@ source_basis: PRINCE2
 source_manifests:
   - project__prince2.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # Exception / Escalation Report

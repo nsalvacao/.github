@@ -1,7 +1,7 @@
 ---
 title: Risk Register Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{RISK_OWNER}}"
@@ -12,7 +12,7 @@ source_manifests:
   - operations__nist_cisa.md
   - platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Risk Appetite Statement

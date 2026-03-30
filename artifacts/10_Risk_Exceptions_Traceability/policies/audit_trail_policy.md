@@ -1,7 +1,7 @@
 ---
 title: Audit Trail Policy
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: risk-platform
@@ -11,7 +11,7 @@ source_basis: NIST auditability and traceability guidance
 source_manifests:
   - operations__nist_cisa.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Policy Statement

@@ -1,7 +1,7 @@
 ---
 title: Benefits Review / Benefits Realization Record
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: GOVERNANCE
@@ -12,7 +12,7 @@ source_manifests:
   - project__pmi.md
   - project__prince2.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # Benefits Review / Benefits Realization Record
