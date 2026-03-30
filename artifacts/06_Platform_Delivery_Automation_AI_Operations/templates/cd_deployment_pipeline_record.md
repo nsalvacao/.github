@@ -1,7 +1,7 @@
 ---
 title: CD / Deployment Pipeline Record
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: platform-governance
@@ -12,7 +12,7 @@ source_manifests:
   - governance__github_docs.md
   - platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # CD / Deployment Pipeline Record

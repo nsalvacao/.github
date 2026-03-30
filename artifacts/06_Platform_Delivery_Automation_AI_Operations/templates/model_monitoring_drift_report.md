@@ -1,7 +1,7 @@
 ---
 title: Model Monitoring / Drift Report
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: platform-governance
@@ -12,7 +12,7 @@ source_manifests:
   - platform__microsoft_learn.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # Model Monitoring / Drift Report

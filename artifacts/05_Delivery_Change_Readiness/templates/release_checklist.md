@@ -1,7 +1,7 @@
 ---
 title: Release Checklist Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{DELIVERY_OWNER}}"
@@ -12,7 +12,7 @@ source_manifests:
   - governance__github_docs.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Release Checklist - `{{RELEASE_ID}}`

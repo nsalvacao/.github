@@ -1,7 +1,7 @@
 ---
 title: AI Safety / Guardrail Policy
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: platform-governance
@@ -12,7 +12,7 @@ source_manifests:
   - ai_ops__openai_docs.md
   - platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # AI Safety / Guardrail Policy

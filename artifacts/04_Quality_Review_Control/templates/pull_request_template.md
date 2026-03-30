@@ -1,7 +1,7 @@
 ---
 title: Pull Request Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: quality-platform
@@ -11,7 +11,7 @@ source_basis: GitHub Docs pull request template guidance
 source_manifests:
   - governance__github_docs.md
 alignment_mode: direct-adaptation
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

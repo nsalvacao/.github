@@ -1,7 +1,7 @@
 ---
 title: MLOps / GenAIOps Policy
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: platform-governance
@@ -13,7 +13,7 @@ source_manifests:
   - platform__aws_well_architected.md
   - ai_ops__openai_docs.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 # MLOps / GenAIOps Policy

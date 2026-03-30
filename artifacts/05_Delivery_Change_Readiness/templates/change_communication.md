@@ -1,7 +1,7 @@
 ---
 title: Change Communication Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{DELIVERY_OWNER}}"
@@ -12,7 +12,7 @@ source_manifests:
   - operations__google_sre.md
   - governance__github_docs.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Change Communication - `{{CHANGE_ID}}`
