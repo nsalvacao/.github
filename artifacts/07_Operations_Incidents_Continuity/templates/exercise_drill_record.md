@@ -1,7 +1,7 @@
 ---
 title: Exercise and Drill Record
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -12,7 +12,7 @@ source_manifests:
   - operations__nist_cisa.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Exercise Identification
@@ -113,9 +113,16 @@ Document the next exercise to maintain continuity of the testing programme. The 
 - **Planned scope:** `{{NEXT_EXERCISE_SCOPE}}`
 - **Responsible planner:** `{{NEXT_EXERCISE_PLANNER}}`
 
+## Related Artifacts
+
+- Service continuity plan: `{{SERVICE_CONTINUITY_PLAN_LINK}}`
+- Incident response plan: `{{INCIDENT_RESPONSE_PLAN_LINK}}`
+- Incident report: `{{INCIDENT_REPORT_LINK}}`
+- Incident timeline: `{{INCIDENT_TIMELINE_LINK}}`
+
 ## Source Attribution
 
 - Source manifests: `operations__nist_cisa.md`, `operations__google_sre.md`
 - Primary source basis: NIST SP 800-34 Rev. 1 section 3.5, ISO 22301:2019 section 8.5
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

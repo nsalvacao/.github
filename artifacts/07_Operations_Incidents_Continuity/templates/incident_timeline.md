@@ -1,7 +1,7 @@
 ---
 title: Incident Timeline Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -10,7 +10,7 @@ applies_to: timeline
 source_basis: Google SRE Incident Management Guide
 source_manifests: operations__google_sre.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Timeline Metadata
@@ -65,8 +65,14 @@ All times in UTC. Minimum granularity: 5 minutes during active response.
 | Time to mitigate (TTM) | `{{T_DECLARED}}` → `{{T_MITIGATION}}` = `{{TTM}}` |
 | Time to resolve (MTTR) | `{{T_DECLARED}}` → `{{T_RESOLVED}}` = `{{MTTR}}` |
 
+## Related Artifacts
+
+- Incident report: `{{INCIDENT_REPORT_LINK}}`
+- Incident response plan: `{{INCIDENT_RESPONSE_PLAN_LINK}}`
+- Exercise drill record: `{{EXERCISE_DRILL_RECORD_LINK}}`
+
 ## Source Attribution
 - Source manifests: `operations__google_sre.md`
 - Primary source basis: Google SRE Incident Management Guide, Incident Management: Key to Restore Operations
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

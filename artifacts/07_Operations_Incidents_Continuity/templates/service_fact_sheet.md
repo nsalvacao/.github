@@ -1,7 +1,7 @@
 ---
 title: Service Fact Sheet
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -12,7 +12,7 @@ source_manifests:
   - operations__google_sre.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
@@ -101,10 +101,17 @@ Error budget dashboard: `{{ERROR_BUDGET_DASHBOARD_LINK}}`
 | Request latency (P99) | ≤ `{{LATENCY_NORMAL}}` ms | > `{{LATENCY_WARNING}}` ms | > `{{LATENCY_CRITICAL}}` ms | `{{LATENCY_ALERT_LINK}}` |
 | Error rate | ≤ `{{ERROR_NORMAL}}`% | > `{{ERROR_WARNING}}`% | > `{{ERROR_CRITICAL}}`% | `{{ERROR_ALERT_LINK}}` |
 
+## Related Artifacts
+
+- Incident response plan: `{{INCIDENT_RESPONSE_PLAN_LINK}}`
+- Incident report: `{{INCIDENT_REPORT_LINK}}`
+- Service continuity plan: `{{SERVICE_CONTINUITY_PLAN_LINK}}`
+- Exercise drill record: `{{EXERCISE_DRILL_RECORD_LINK}}`
+
 ## Source Attribution
 
 - Source manifests: operations__google_sre.md, platform__aws_well_architected.md
 - Primary source basis: Google SRE service documentation guidance and AWS operating model guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
 

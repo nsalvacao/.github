@@ -1,7 +1,7 @@
 ---
 title: Incident Report Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -10,7 +10,7 @@ applies_to: incident report
 source_basis: Google SRE Incident Management Guide, NIST SP 800-61r3
 source_manifests: operations__google_sre.md, operations__nist_cisa.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Incident Identification
@@ -113,9 +113,16 @@ Track all follow-up work here. Each action item must have an owner and due date 
 2. Postmortem: `{{POSTMORTEM_LINK}}`
 3. Lessons review: `{{LESSON_REVIEW_OWNER}}`
 
+## Related Artifacts
+
+- Incident timeline: `{{TIMELINE_LINK}}`
+- Incident response plan: `{{INCIDENT_RESPONSE_PLAN_LINK}}`
+- Service fact sheet: `{{SERVICE_FACT_SHEET_LINK}}`
+- Service continuity plan: `{{SERVICE_CONTINUITY_PLAN_LINK}}`
+
 ## Source Attribution
 
 - Source manifests: `operations__google_sre.md`, `operations__nist_cisa.md`
 - Primary source basis: Google SRE Incident Management Guide, NIST SP 800-61r3
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

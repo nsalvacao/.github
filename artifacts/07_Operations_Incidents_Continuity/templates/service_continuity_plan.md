@@ -1,7 +1,7 @@
 ---
 title: Service Continuity Plan
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -13,7 +13,7 @@ source_manifests:
   - operations__google_sre.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Service Context
@@ -119,9 +119,16 @@ Define when this plan will be tested and reviewed. Per ISO 22301:2019 clause 8.5
 
 Test results must be recorded using the exercise drill record template. Material gaps found during testing must generate corrective actions and may trigger an unscheduled plan review.
 
+## Related Artifacts
+
+- Business impact analysis standard: `{{BIA_STANDARD_LINK}}`
+- Incident response plan: `{{INCIDENT_RESPONSE_PLAN_LINK}}`
+- Exercise drill record: `{{EXERCISE_DRILL_RECORD_LINK}}`
+- Incident report: `{{INCIDENT_REPORT_LINK}}`
+
 ## Source Attribution
 
 - Source manifests: `operations__nist_cisa.md`, `operations__google_sre.md`, `platform__aws_well_architected.md`
 - Primary source basis: ISO 22301:2019 clause 8.4
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

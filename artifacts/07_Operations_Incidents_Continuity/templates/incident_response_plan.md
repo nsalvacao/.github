@@ -1,7 +1,7 @@
 ---
 title: Incident Response Plan
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -12,7 +12,7 @@ source_manifests:
   - operations__nist_cisa.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
@@ -157,10 +157,17 @@ Investigating: We are investigating reports of {{EXTERNAL_IMPACT_DESCRIPTION}}.
 Our team is actively working on a resolution. Next update: {{NEXT_UPDATE_TIME_UTC}}.
 ```
 
+## Related Artifacts
+
+- Incident report: `{{INCIDENT_REPORT_LINK}}`
+- Incident timeline: `{{INCIDENT_TIMELINE_LINK}}`
+- Service continuity plan: `{{SERVICE_CONTINUITY_PLAN_LINK}}`
+- Exercise drill record: `{{EXERCISE_DRILL_RECORD_LINK}}`
+
 ## Source Attribution
 
 - Source manifests: operations__nist_cisa.md, operations__google_sre.md
 - Primary source basis: NIST SP 800-61r3 and Google SRE incident management guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
 
