@@ -7,10 +7,9 @@ classification: public
 owner: "{{PLATFORM_OWNER}}"
 review_cadence: quarterly
 applies_to: repositories that register models or model-like AI assets
-source_basis: Microsoft and Google model registry guidance
+source_basis: Microsoft Learn MLOps model registry guidance and Google model registry practices
 source_manifests:
-  - platform__microsoft_learn.md
-  - platform__aws_well_architected.md
+  - platform__microsoft_mlops.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -115,7 +114,7 @@ Common limitation categories to consider: distributional shift (model trained on
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
-- Primary source basis: model registry and lineage guidance
+- Source manifests: `platform__microsoft_mlops.md`
+- Primary source basis: Microsoft Learn MLOps model registry guidance and Google model registry practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

@@ -8,7 +8,7 @@ owner: reliability-platform
 review_cadence: semiannual
 applies_to: releases carrying new services or significant changes
 source_basis: Google SRE Production Readiness Review & AWS Operational Readiness guidance
-source_manifests: operations__google_sre.md platform__aws_well_architected.md platform__microsoft_learn.md
+source_manifests: operations__google_sre.md, platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -103,7 +103,7 @@ A PRR is required for:
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `platform__aws_well_architected.md`, `platform__microsoft_learn.md`
-- Primary source basis: Google SRE Production Readiness Review, AWS ORR, Microsoft Learn deployment guidance
+- Source manifests: `operations__google_sre.md`, `platform__aws_well_architected.md`
+- Primary source basis: Google SRE Production Readiness Review and AWS operational readiness guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

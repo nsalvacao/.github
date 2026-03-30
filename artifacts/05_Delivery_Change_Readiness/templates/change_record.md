@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: change control and implementation tracking
 source_basis: ITIL 4 Change Enablement practice
 source_manifests:
-  - operations__nist_cisa.md
+  - service_mgmt__itil.md
   - platform__aws_well_architected.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
@@ -160,7 +160,7 @@ A change record must not be closed until post-implementation verification criter
 
 ## Source Attribution
 
-- Source manifests: `operations__nist_cisa.md`, `platform__aws_well_architected.md`
+- Source manifests: `service_mgmt__itil.md`, `platform__aws_well_architected.md`
 - Primary source basis: ITIL 4 Change Enablement practice
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

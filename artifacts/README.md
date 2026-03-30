@@ -7,7 +7,7 @@ classification: public
 owner: GOVERNANCE
 review_cadence: quarterly
 applies_to: repositories consuming reusable governance assets
-source_basis: Repository structural decisions and the public document map
+source_basis: GitHub repository governance guidance and Diataxis documentation architecture for the public document map
 source_manifests:
   - governance__github_docs.md
   - documentation__diataxis.md

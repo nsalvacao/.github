@@ -23,6 +23,12 @@
 - documentation style and review ownership standards
 - knowledge lifecycle and archival rules
 
+## Validation Contract
+
+- Supported source basis tokens: `Diataxis`, `documentation architecture`, `information model`, `tutorial`, `how-to`, `reference`, `explanation`
+- Allowed dimensions: `01_Governance_Method`, `08_Knowledge_Documentation_Continuous_Improvement`
+- Authority level: `aligned-semantics`
+
 ## Notes
 
 - Diataxis is used here as an information architecture and quality model, not as a direct template pack.
@@ -33,4 +39,4 @@
 - Source manifests: self
 - Primary source basis: Diataxis official framework pages
 - Alignment mode: `guided-synthesis`
-- Reviewed on: 2026-03-28
+- Reviewed on: 2026-03-30

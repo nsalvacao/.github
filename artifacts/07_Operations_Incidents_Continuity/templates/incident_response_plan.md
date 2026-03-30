@@ -1,7 +1,7 @@
 ---
 title: Incident Response Plan
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: "{{OWNER_NAME}}"
@@ -9,15 +9,15 @@ review_cadence: quarterly
 applies_to: incident response planning
 source_basis: NIST SP 800-61r3 and Google SRE incident management guidance
 source_manifests:
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
 
-Provide the reusable plan structure for response phases, decision rights, communications, and recovery coordination following the NIST SP 800-61r2 Incident Response Lifecycle.
+Provide the reusable plan structure for response phases, decision rights, communications, and recovery coordination following current NIST incident response lifecycle guidance and Google SRE incident-management practices.
 
 ## Plan Metadata
 
@@ -64,7 +64,7 @@ Activities performed BEFORE an incident occurs:
 
 ### Evidence Preservation
 
-NIST SP 800-61r2 mandates evidence collection and preservation during Detection & Analysis. Evidence collected here supports root cause analysis, postmortems, and potential legal or regulatory proceedings.
+NIST incident response guidance requires evidence collection and preservation during detection and analysis. Evidence collected here supports root cause analysis, postmortems, and potential legal or regulatory proceedings.
 
 | Evidence Source | Collection Method | Storage Location | Retention Period | Owner |
 |---|---|---|---|---|
@@ -157,10 +157,17 @@ Investigating: We are investigating reports of {{EXTERNAL_IMPACT_DESCRIPTION}}.
 Our team is actively working on a resolution. Next update: {{NEXT_UPDATE_TIME_UTC}}.
 ```
 
+## Related Artifacts
+
+- Incident report: `{{INCIDENT_REPORT_LINK}}`
+- Incident timeline: `{{INCIDENT_TIMELINE_LINK}}`
+- Service continuity plan: `{{SERVICE_CONTINUITY_PLAN_LINK}}`
+- Exercise drill record: `{{EXERCISE_DRILL_RECORD_LINK}}`
+
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md, operations__google_sre.md
+- Source manifests: operations__nist_incident_response.md, operations__google_sre.md
 - Primary source basis: NIST SP 800-61r3 and Google SRE incident management guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
 

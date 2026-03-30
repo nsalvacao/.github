@@ -11,7 +11,7 @@ source_basis: GitHub Docs community governance guidance plus AWS and Microsoft d
 source_manifests:
   - governance__github_docs.md
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-27
 ---
@@ -263,7 +263,7 @@ The following foundational inferences are hereby recorded:
 
 1. Source manifests referenced in public files must resolve to public, sanitized manifest documents.
 2. Public source manifests are published under `sources/manifests/`.
-3. Private research material may remain richer and more exploratory, but public provenance must be sufficient to verify the declared source basis and authority.
+3. Private research material may remain richer and more exploratory, but public provenance must be sufficient to verify the declared source basis and authority within the bounded scope of each manifest.
 4. Public-facing attribution should link to the published manifest whenever practical.
 
 ## DL-0019 - Public versus private agent guidance
@@ -352,7 +352,7 @@ The following foundational inferences are hereby recorded:
 
 ## Source Attribution
 
-- Source manifests: [`governance__github_docs.md`](./sources/manifests/governance__github_docs.md), [`platform__aws_well_architected.md`](./sources/manifests/platform__aws_well_architected.md), [`platform__microsoft_learn.md`](./sources/manifests/platform__microsoft_learn.md)
+- Source manifests: [`governance__github_docs.md`](./sources/manifests/governance__github_docs.md), [`platform__aws_well_architected.md`](./sources/manifests/platform__aws_well_architected.md), [`platform__microsoft_architecture.md`](./sources/manifests/platform__microsoft_architecture.md)
 - Primary source basis: GitHub Docs community governance guidance plus AWS and Microsoft decision-record practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-27

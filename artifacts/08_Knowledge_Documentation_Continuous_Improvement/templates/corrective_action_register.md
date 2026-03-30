@@ -7,7 +7,7 @@ classification: public
 owner: knowledge-platform
 review_cadence: monthly
 applies_to: postmortems, RCAs, reviews, and continuous improvement work
-source_basis: PDCA (Plan-Do-Check-Act) cycle for continuous operational improvement
+source_basis: PDCA (Plan-Do-Check-Act) cycle and Google SRE continuous improvement practices
 source_manifests:
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
@@ -88,6 +88,6 @@ At each review: confirm statuses are accurate, escalate overdue P1 and P2 action
 ## Source Attribution
 
 - Source manifests: operations__google_sre.md
-- Primary source basis: PDCA (Plan-Do-Check-Act) cycle for continuous operational improvement
+- Primary source basis: PDCA (Plan-Do-Check-Act) cycle and Google SRE continuous improvement practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

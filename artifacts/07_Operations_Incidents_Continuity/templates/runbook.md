@@ -144,4 +144,4 @@ Document known edge cases, environment-specific quirks, or common mistakes that 
 - Source manifests: operations__google_sre.md, platform__aws_well_architected.md
 - Primary source basis: Google SRE Workbook runbook practices and AWS Operational Runbooks
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

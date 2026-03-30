@@ -7,7 +7,7 @@ classification: public
 owner: knowledge-platform
 review_cadence: semiannual
 applies_to: public documentation and reusable governance artifacts
-source_basis: Google Developer Documentation Style Guide
+source_basis: Google Developer Documentation Style Guide adapted through Diataxis and GitHub documentation conventions
 source_manifests:
   - governance__github_docs.md
   - documentation__diataxis.md
@@ -154,6 +154,6 @@ Use fenced code blocks with an explicit language tag for all multi-line code, co
 ## Source Attribution
 
 - Source manifests: governance__github_docs.md, documentation__diataxis.md
-- Primary source basis: Google Developer Documentation Style Guide
+- Primary source basis: Google Developer Documentation Style Guide adapted through Diataxis and GitHub documentation conventions
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

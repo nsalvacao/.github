@@ -8,9 +8,9 @@ owner: "{{OWNER_NAME}}"
 review_cadence: quarterly
 applies_to: escalation playbook
 source_basis: NIST SP 800-61r3, Google SRE Incident Management Guide
-source_manifests: operations__nist_cisa.md, operations__google_sre.md
+source_manifests: operations__nist_incident_response.md, operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
@@ -94,7 +94,7 @@ Maintain a log entry for every escalation action. This log is required input for
 
 ## Source Attribution
 
-- Source manifests: `operations__nist_cisa.md`, `operations__google_sre.md`
+- Source manifests: `operations__nist_incident_response.md`, `operations__google_sre.md`
 - Primary source basis: NIST SP 800-61r3, Google SRE Incident Management Guide
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -7,7 +7,7 @@ classification: public
 owner: "{{OWNER_NAME}}"
 review_cadence: annual
 applies_to: contributor and community behavior
-source_basis: Contributor Covenant 2.1 (contributor-covenant.org/version/2/1/code_of_conduct/)
+source_basis: Contributor Covenant 2.1 and GitHub community health guidance for repository code-of-conduct surfaces
 source_manifests:
   - governance__github_docs.md
 alignment_mode: direct-adaptation
@@ -99,6 +99,6 @@ This Code of Conduct is adapted from the [Contributor Covenant, version 2.1](htt
 ## Source Attribution
 
 - Source manifests: governance__github_docs.md
-- Primary source basis: Contributor Covenant 2.1 (contributor-covenant.org/version/2/1/code_of_conduct/)
+- Primary source basis: Contributor Covenant 2.1 and GitHub community health guidance for repository code-of-conduct surfaces
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

@@ -10,7 +10,8 @@ applies_to: all architecture and delivery decisions that threaten irreversible o
 source_basis: MADR 3.x (adr.github.io/madr) — Markdown Architectural Decision Records
 source_manifests:
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - architecture__madr.md
+  - platform__microsoft_architecture.md
   - governance__github_docs.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-28
@@ -95,7 +96,7 @@ After an ADR reaches `accepted` state, append a corresponding entry to `decision
 
 ## Source Attribution
 
-- Source manifests: platform__aws_well_architected.md, platform__microsoft_learn.md, governance__github_docs.md
+- Source manifests: platform__aws_well_architected.md, architecture__madr.md, platform__microsoft_architecture.md, governance__github_docs.md
 - Primary source basis: MADR 3.x (adr.github.io/madr) — Markdown Architectural Decision Records
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-27

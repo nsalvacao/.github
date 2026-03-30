@@ -260,7 +260,7 @@
         "title": "Discovery Brief / Problem Framing",
         "nature": "Instantiable",
         "role": "Frames problem, goal, and constraints",
-        "source": "Scrum Guide",
+        "source": "Continuous discovery + user story mapping",
         "maturity": "Public draft",
         "status": "hardening",
         "path": "artifacts/02_Discovery_Planning_Early_Learning/templates/discovery_brief.md"
@@ -279,8 +279,8 @@
         "nature": "Instantiable",
         "role": "Inventory of prioritized future work",
         "source": "Scrum Guide",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/02_Discovery_Planning_Early_Learning/templates/product_backlog.md"
       },
       {
@@ -288,15 +288,15 @@
         "nature": "Instantiable",
         "role": "Records cycle goal and scope decisions",
         "source": "Scrum Guide",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/02_Discovery_Planning_Early_Learning/templates/planning_record.md"
       },
       {
         "title": "Research / Experiment Log",
         "nature": "Instantiable",
         "role": "Records hypotheses and observations",
-        "source": "Google SRE",
+        "source": "Lean Startup",
         "maturity": "Public draft",
         "status": "hardening",
         "path": "artifacts/02_Discovery_Planning_Early_Learning/templates/research_experiment_log.md"
@@ -305,7 +305,7 @@
         "title": "Assumptions Register",
         "nature": "Instantiable",
         "role": "Makes unvalidated assumptions explicit",
-        "source": "Microsoft Learn",
+        "source": "PMI + Lean Startup",
         "maturity": "Public draft",
         "status": "hardening",
         "path": "artifacts/02_Discovery_Planning_Early_Learning/templates/assumptions_register.md"
@@ -314,7 +314,7 @@
         "title": "Technical Retrospective",
         "nature": "Instantiable",
         "role": "Reviews an iteration or phase of work",
-        "source": "Scrum Guide",
+        "source": "Scrum Guide + Norm Kerth retrospectives",
         "maturity": "Public draft",
         "status": "hardening",
         "path": "artifacts/02_Discovery_Planning_Early_Learning/templates/technical_retrospective.md"
@@ -527,7 +527,7 @@
         "title": "Change Log / Release Notes",
         "nature": "Evidence",
         "role": "Communicates what changed",
-        "source": "GitHub Docs",
+        "source": "Keep a Changelog + Conventional Commits",
         "maturity": "Public",
         "status": "ready",
         "path": "artifacts/05_Delivery_Change_Readiness/templates/change_log_release_notes.md"
@@ -545,7 +545,7 @@
         "title": "Post-Implementation Review (PIR)",
         "nature": "Evidence",
         "role": "Evaluates real outcomes",
-        "source": "NIST",
+        "source": "GOV.UK PIR + ITIL 4",
         "maturity": "Public",
         "status": "ready",
         "path": "artifacts/05_Delivery_Change_Readiness/templates/post_implementation_review.md"
@@ -724,8 +724,8 @@
         "nature": "Instantiable",
         "role": "Summarizes operational context",
         "source": "AWS Docs",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/service_fact_sheet.md"
       },
       {
@@ -733,8 +733,8 @@
         "nature": "Normative",
         "role": "Defines process, roles, and escalation",
         "source": "NIST",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/incident_response_plan.md"
       },
       {
@@ -742,8 +742,8 @@
         "nature": "Evidence",
         "role": "Records facts and impact",
         "source": "NIST",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/incident_report.md"
       },
       {
@@ -751,8 +751,8 @@
         "nature": "Evidence",
         "role": "Preserves the chronology of events",
         "source": "Google SRE",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/incident_timeline.md"
       },
       {
@@ -777,7 +777,7 @@
         "title": "SOP (Standard Op. Procedure)",
         "nature": "Operational",
         "role": "Standardizes stable processes",
-        "source": "NIST",
+        "source": "Google SRE",
         "maturity": "Public draft",
         "status": "hardening",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/standard_operating_procedure.md"
@@ -804,7 +804,7 @@
         "title": "Service Continuity Plan / DR",
         "nature": "Operational",
         "role": "Defines recovery and ISCP",
-        "source": "NIST",
+        "source": "ISO 22301",
         "maturity": "Public draft",
         "status": "hardening",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/service_continuity_plan.md"
@@ -814,8 +814,8 @@
         "nature": "Evidence",
         "role": "Records drills and extracted lessons",
         "source": "NIST",
-        "maturity": "Public draft",
-        "status": "hardening",
+        "maturity": "Public",
+        "status": "ready",
         "path": "artifacts/07_Operations_Incidents_Continuity/templates/exercise_drill_record.md"
       }
     ],
@@ -1208,7 +1208,7 @@
         "title": "Risk Register",
         "nature": "Evidence",
         "role": "Tracks risks, impact, and mitigation",
-        "source": "NIST",
+        "source": "NIST RMF + Microsoft governance",
         "maturity": "Public",
         "status": "ready",
         "path": "artifacts/10_Risk_Exceptions_Traceability/templates/risk_register.md"
@@ -1217,7 +1217,7 @@
         "title": "Exception / Deviation Record",
         "nature": "Evidence",
         "role": "Records deliberate policy deviations",
-        "source": "Microsoft Learn",
+        "source": "NIST control exception handling + Microsoft governance",
         "maturity": "Public",
         "status": "ready",
         "path": "artifacts/10_Risk_Exceptions_Traceability/templates/exception_deviation_record.md"
@@ -1235,7 +1235,7 @@
         "title": "Audit Trail Policy",
         "nature": "Normative",
         "role": "Defines minimum traceability rules",
-        "source": "NIST",
+        "source": "NIST auditability / log management",
         "maturity": "Public",
         "status": "ready",
         "path": "artifacts/10_Risk_Exceptions_Traceability/policies/audit_trail_policy.md"

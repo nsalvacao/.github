@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: records that preserve the reasoning behind a design choice
 source_basis: arc42 section 9 (architecture decisions); AWS Well-Architected design principles
 source_manifests:
-  - platform__microsoft_learn.md
+  - architecture__arc42.md
   - platform__aws_well_architected.md
 alignment_mode: direct-adaptation
 updated: 2026-03-30
@@ -112,7 +112,7 @@ Link to other records that inform or are informed by this rationale.
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
+- Source manifests: `architecture__arc42.md`, `platform__aws_well_architected.md`
 - Primary source basis: arc42 section 9 (architecture decisions); AWS Well-Architected design principles
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

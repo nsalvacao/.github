@@ -10,7 +10,7 @@ applies_to: comparisons between viable architecture or delivery options
 source_basis: AWS Well-Architected trade-off analysis practices; Microsoft Learn decision support guidance
 source_manifests:
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: direct-adaptation
 updated: 2026-03-30
 ---
@@ -96,7 +96,7 @@ If no dissent was recorded, state: "No dissent recorded." Do not leave this sect
 
 ## Source Attribution
 
-- Source manifests: `platform__aws_well_architected.md`, `platform__microsoft_learn.md`
+- Source manifests: `platform__aws_well_architected.md`, `platform__microsoft_architecture.md`
 - Primary source basis: AWS Well-Architected trade-off analysis practices; Microsoft Learn decision support guidance
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

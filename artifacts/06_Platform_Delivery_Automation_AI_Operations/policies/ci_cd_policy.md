@@ -10,7 +10,7 @@ applies_to: repositories using build, test, release, or deployment automation
 source_basis: DORA State of DevOps Research (Accelerate book) + GitHub Actions
 source_manifests:
   - governance__github_docs.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -91,7 +91,7 @@ Measurement baseline period: `{{MEASUREMENT_BASELINE_PERIOD}}`. Teams must estab
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
+- Source manifests: `governance__github_docs.md`, `platform__microsoft_architecture.md`
 - Primary source basis: DORA State of DevOps Research (Accelerate book) + GitHub Actions
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

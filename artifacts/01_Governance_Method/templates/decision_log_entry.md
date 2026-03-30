@@ -11,7 +11,7 @@ source_basis: GitHub Docs community governance guidance; AWS Well-Architected AD
 source_manifests:
   - governance__github_docs.md
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 decision_log_id: "DL-{{DECISION_SEQUENCE}}"
@@ -81,7 +81,7 @@ Next review: `{{REVIEW_DATE}}`
 
 ## Source Attribution
 
-- Source manifests: governance__github_docs.md, platform__aws_well_architected.md, platform__microsoft_learn.md
+- Source manifests: governance__github_docs.md, platform__aws_well_architected.md, platform__microsoft_architecture.md
 - Primary source basis: GitHub governance docs plus AWS/Microsoft guidance on decision records and reviews
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

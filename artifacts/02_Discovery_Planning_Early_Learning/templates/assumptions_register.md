@@ -7,11 +7,12 @@ classification: public
 owner: governance@org
 review_cadence: quarterly
 applies_to: planning and uncertainty management
-source_basis: Assumption-based planning (PMI PMBOK) + Lean Startup validated learning
+source_basis: PMI assumption and planning semantics + Lean Startup validated learning
 source_manifests:
-  - platform__microsoft_learn.md
+  - project__pmi.md
+  - method__lean_startup.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Assumptions Register — `{{SCOPE_NAME}}`
@@ -72,9 +73,16 @@ Prioritise critical assumption validation above feature delivery. An unvalidated
 - Tie each assumption to a decision, experiment, or backlog item.
 - An assumption that cannot be validated is a constraint — treat it as such.
 
+### Related Artifacts
+
+- `Discovery Brief`: `./discovery_brief.md`
+- `Product Goal / Outcome Statement`: `./product_goal_outcome_statement.md`
+- `Research / Experiment Log`: `./research_experiment_log.md`
+- `Technical Retrospective`: `./technical_retrospective.md`
+
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`
-- Primary source basis: Assumption-based planning (PMI PMBOK 7th edition) + Lean Startup validated learning (Ries, 2011)
+- Source manifests: `project__pmi.md`, `method__lean_startup.md`
+- Primary source basis: PMI planning semantics + Lean Startup validated learning public method guidance
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

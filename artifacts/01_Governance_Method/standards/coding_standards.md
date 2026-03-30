@@ -10,7 +10,7 @@ applies_to: code and automation artifacts
 source_basis: Google Style Guide principles and GitHub Docs engineering guidance
 source_manifests:
   - governance__github_docs.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -90,7 +90,7 @@ The formatter configuration is located at `{{FORMATTER_CONFIG_PATH}}`. Formattin
 
 ## Source Attribution
 
-- Source manifests: governance__github_docs.md, platform__microsoft_learn.md
+- Source manifests: governance__github_docs.md, platform__microsoft_architecture.md
 - Primary source basis: Google Style Guide principles and GitHub Docs engineering guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

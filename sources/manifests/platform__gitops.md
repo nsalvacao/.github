@@ -18,6 +18,12 @@
 - GitOps environment or application definition artifacts
 - platform baseline records where declarative delivery is a governing concern
 
+## Validation Contract
+
+- Supported source basis tokens: `OpenGitOps`, `GitOps`, `Flux`, `Argo CD`, `desired-state`
+- Allowed dimensions: `06_Platform_Delivery_Automation_AI_Operations`
+- Authority level: `normative`
+
 ## Notes
 
 - GitOps guidance here is source-family based and intentionally product-agnostic at the policy level.
@@ -28,4 +34,4 @@
 - Source manifests: self
 - Primary source basis: OpenGitOps, Flux, and Argo CD official documentation
 - Alignment mode: `guided-synthesis`
-- Reviewed on: 2026-03-28
+- Reviewed on: 2026-03-30

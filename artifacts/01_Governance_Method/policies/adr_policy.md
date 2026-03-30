@@ -10,7 +10,8 @@ applies_to: architecture and governance decisions
 source_basis: MADR (Markdown Architectural Decision Records) lifecycle specification
 source_manifests:
   - governance__github_docs.md
-  - platform__microsoft_learn.md
+  - architecture__madr.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -84,7 +85,7 @@ Link each accepted ADR to the decision log entry at `{{DECISION_LOG_PATH}}` so t
 
 ## Source Attribution
 
-- Source manifests: governance__github_docs.md, platform__microsoft_learn.md
+- Source manifests: governance__github_docs.md, architecture__madr.md, platform__microsoft_architecture.md
 - Primary source basis: MADR (Markdown Architectural Decision Records) lifecycle specification
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

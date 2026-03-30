@@ -8,7 +8,7 @@ owner: "{{OWNER_NAME}}"
 review_cadence: semiannually
 applies_to: continuity planning
 source_basis: NIST SP 800-34 Rev. 1
-source_manifests: operations__nist_cisa.md, platform__aws_well_architected.md, operations__google_sre.md
+source_manifests: operations__nist_continuity.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-28
 ---
@@ -70,7 +70,7 @@ Use the canonical BIA template at `artifacts/07_Operations_Incidents_Continuity/
 
 ## Source Attribution
 
-- Source manifests: `operations__nist_cisa.md`, `platform__aws_well_architected.md`, `operations__google_sre.md`
+- Source manifests: `operations__nist_continuity.md`
 - Primary source basis: NIST SP 800-34 Rev. 1 section 2.2
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

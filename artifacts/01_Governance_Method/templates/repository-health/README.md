@@ -63,7 +63,7 @@ updated: 2026-03-27
 
 ## Source Attribution
 
-- Source manifests: {{SOURCE_MANIFESTS}}
-- Primary source basis: {{PRIMARY_SOURCE_BASIS}}
-- Alignment mode: {{ALIGNMENT_MODE}}
-- Reviewed on: {{REVIEWED_ON}}
+- Source manifests: `governance__github_docs.md`
+- Primary source basis: GitHub Docs and Open Source Guides repository overview guidance
+- Alignment mode: hybrid-synthesis
+- Reviewed on: 2026-03-30

@@ -22,14 +22,21 @@
 - AI safety and guardrail policies
 - model lifecycle and serving records
 
+## Validation Contract
+
+- Supported source basis tokens: `OpenAI`, `prompt`, `evaluation`, `guardrail`, `model lifecycle`, `agent evals`, `safety checks`
+- Allowed dimensions: `01_Governance_Method`, `06_Platform_Delivery_Automation_AI_Operations`
+- Authority level: `implementation-guidance`
+
 ## Notes
 
 - OpenAI guidance is dynamic; public artifacts grounded here should be periodically reviewed for model and API drift.
 - The public manifest intentionally summarizes the source family and not every detailed extraction note from the private research material.
+- Use this manifest for provider implementation guidance, not as a generic substitute for governance authorities such as NIST AI RMF or regulatory texts.
 
 ## Source Attribution
 
 - Source manifests: self
 - Primary source basis: OpenAI platform documentation
 - Alignment mode: `guided-synthesis`
-- Reviewed on: 2026-03-28
+- Reviewed on: 2026-03-30

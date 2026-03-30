@@ -7,7 +7,7 @@ classification: public
 owner: GOVERNANCE
 review_cadence: quarterly
 applies_to: service level targets, commitments, and review expectations
-source_basis: PMI, PRINCE2, ITIL
+source_basis: ITIL service level management semantics with PMI and PRINCE2 governance framing
 source_manifests:
   - project__pmi.md
   - project__prince2.md
@@ -81,6 +81,6 @@ Approved exceptions that persist beyond `{{EXCEPTION_REVIEW_PERIOD}}` trigger SL
 ## Source Attribution
 
 - Source manifests: `project__pmi.md`, `project__prince2.md`, `service_mgmt__itil.md`
-- Primary source basis: PMI, PRINCE2, and ITIL service governance guidance
+- Primary source basis: ITIL service level management semantics with PMI and PRINCE2 governance framing
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

@@ -138,6 +138,6 @@ See Stakeholder Register at `{{STAKEHOLDER_REGISTER_LINK}}`.
 ## Source Attribution
 
 - Source manifests: `project__pmi.md`, `project__prince2.md`
-- Primary source basis: PMI and PRINCE2 initiation guidance
+- Primary source basis: PMI and PRINCE2 project initiation guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

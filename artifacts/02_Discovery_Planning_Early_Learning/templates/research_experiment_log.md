@@ -7,12 +7,12 @@ classification: public
 owner: governance@org
 review_cadence: quarterly
 applies_to: research, experimentation, and learning loops
-source_basis: Lean Startup Build-Measure-Learn + Google SRE experimentation practices
+source_basis: Lean Startup experimentation with SRE-style measurement discipline
 source_manifests:
-  - method__scrum_guide.md
+  - method__lean_startup.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Research / Experiment Log â€” `{{EXPERIMENT_NAME}}`
@@ -101,9 +101,16 @@ Every experiment must end in a decision. "We need more data" is not a decision â
 | Related experiments | `{{RELATED_EXPERIMENT}}` |
 | Assumptions invalidated | `{{ASSUMPTION_REF}}` |
 
+### Related Artifacts
+
+- `Discovery Brief`: `./discovery_brief.md`
+- `Assumptions Register`: `./assumptions_register.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Technical Retrospective`: `./technical_retrospective.md`
+
 ## Source Attribution
 
-- Source manifests: `method__scrum_guide.md`, `operations__google_sre.md`
-- Primary source basis: Lean Startup Build-Measure-Learn (Ries, 2011) + Google SRE operational experimentation practices
+- Source manifests: `method__lean_startup.md`, `operations__google_sre.md`
+- Primary source basis: Lean Startup experimentation guidance + Google SRE measurement and learning discipline
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

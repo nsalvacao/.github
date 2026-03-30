@@ -7,8 +7,8 @@ classification: public-redacted
 owner: governance@org
 review_cadence: quarterly
 applies_to: repositories using automation hooks or AI agents
-source_basis: documentation__diataxis, platform__aws_well_architected, platform__microsoft_learn, ai_ops__openai_docs
-source_manifests: documentation__diataxis.md, platform__aws_well_architected.md, platform__microsoft_learn.md, ai_ops__openai_docs.md
+source_basis: documentation__diataxis, platform__aws_well_architected, platform__microsoft_architecture, ai_ops__openai_docs
+source_manifests: documentation__diataxis.md, platform__aws_well_architected.md, platform__microsoft_architecture.md, ai_ops__openai_docs.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -119,7 +119,7 @@ Link automation descriptions to `artifacts/01_Governance_Method/templates/partia
 
 ## Source Attribution
 
-- Source manifests: documentation__diataxis.md, platform__aws_well_architected.md, platform__microsoft_learn.md, ai_ops__openai_docs.md
+- Source manifests: documentation__diataxis.md, platform__aws_well_architected.md, platform__microsoft_architecture.md, ai_ops__openai_docs.md
 - Primary source basis: AI safety and human-in-the-loop principles; AWS/Microsoft automation guidance; OpenAI AI ops guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

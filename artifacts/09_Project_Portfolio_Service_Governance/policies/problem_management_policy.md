@@ -10,7 +10,7 @@ applies_to: recurring problem analysis and prevention of incident recurrence
 source_basis: ITIL, NIST, Google SRE
 source_manifests:
   - service_mgmt__itil.md
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
@@ -96,7 +96,7 @@ Use one or more of the following methods:
 
 ## Source Attribution
 
-- Source manifests: `service_mgmt__itil.md`, `operations__nist_cisa.md`, `operations__google_sre.md`
+- Source manifests: `service_mgmt__itil.md`, `operations__nist_incident_response.md`, `operations__google_sre.md`
 - Primary source basis: ITIL problem management guidance plus NIST and Google SRE operational learning practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

@@ -7,12 +7,11 @@ classification: public
 owner: governance@org
 review_cadence: quarterly
 applies_to: discovery and problem framing
-source_basis: Dual-track discovery — Teresa Torres / Jeff Patton continuous discovery
+source_basis: Continuous discovery and user story mapping public method guidance
 source_manifests:
-  - method__scrum_guide.md
-  - governance__github_docs.md
+  - method__continuous_discovery.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Discovery Brief — `{{INITIATIVE_NAME}}`
@@ -107,9 +106,16 @@ The smallest useful follow-up action that will reduce uncertainty.
 1. `{{NEXT_STEP_1}}`
 2. `{{NEXT_STEP_2}}`
 
+### Related Artifacts
+
+- `Product Goal / Outcome Statement`: `./product_goal_outcome_statement.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Assumptions Register`: `./assumptions_register.md`
+- `Research / Experiment Log`: `./research_experiment_log.md`
+
 ## Source Attribution
 
-- Source manifests: `method__scrum_guide.md`, `governance__github_docs.md`
-- Primary source basis: Dual-track discovery (Teresa Torres, *Continuous Discovery Habits*, 2021; Jeff Patton, *User Story Mapping*, 2014)
+- Source manifests: `method__continuous_discovery.md`
+- Primary source basis: Continuous discovery and user story mapping public method guidance
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

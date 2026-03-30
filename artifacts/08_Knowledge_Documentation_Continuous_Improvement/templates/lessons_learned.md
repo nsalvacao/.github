@@ -10,7 +10,7 @@ applies_to: stabilized incidents, experiments, and delivery retrospectives
 source_basis: Google SRE and NIST learning-from-events practices
 source_manifests:
   - operations__google_sre.md
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -119,7 +119,7 @@ Record the canonical location where this document is stored long-term. The archi
 
 ## Source Attribution
 
-- Source manifests: operations__google_sre.md, operations__nist_cisa.md
+- Source manifests: operations__google_sre.md, operations__nist_incident_response.md
 - Primary source basis: Google SRE and NIST learning-from-events practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30
