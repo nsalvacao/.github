@@ -1,7 +1,7 @@
 ---
 title: Planning Record Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -11,7 +11,7 @@ source_basis: Scrum Guide 2020 Sprint Planning event
 source_manifests:
   - method__scrum_guide.md
 alignment_mode: direct-adaptation
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Planning Record — Sprint `{{SPRINT_NUMBER}}`
@@ -91,9 +91,16 @@ The team confirms that the current Definition of Done applies to all Sprint Back
 
 Velocity is used as a guide, not a commitment. Capacity calculation takes precedence over raw velocity. Track trends rather than targeting a specific number.
 
+### Related Artifacts
+
+- `Product Goal / Outcome Statement`: `./product_goal_outcome_statement.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Assumptions Register`: `./assumptions_register.md`
+- `Technical Retrospective`: `./technical_retrospective.md`
+
 ## Source Attribution
 
 - Source manifests: `method__scrum_guide.md`
 - Primary source basis: Scrum Guide 2020 — Sprint Planning event (three topics: Why, What, How)
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

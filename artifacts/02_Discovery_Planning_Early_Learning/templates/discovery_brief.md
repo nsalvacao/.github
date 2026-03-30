@@ -1,7 +1,7 @@
 ---
 title: Discovery Brief Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -12,7 +12,7 @@ source_manifests:
   - method__scrum_guide.md
   - governance__github_docs.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Discovery Brief — `{{INITIATIVE_NAME}}`
@@ -107,9 +107,16 @@ The smallest useful follow-up action that will reduce uncertainty.
 1. `{{NEXT_STEP_1}}`
 2. `{{NEXT_STEP_2}}`
 
+### Related Artifacts
+
+- `Product Goal / Outcome Statement`: `./product_goal_outcome_statement.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Assumptions Register`: `./assumptions_register.md`
+- `Research / Experiment Log`: `./research_experiment_log.md`
+
 ## Source Attribution
 
 - Source manifests: `method__scrum_guide.md`, `governance__github_docs.md`
 - Primary source basis: Dual-track discovery (Teresa Torres, *Continuous Discovery Habits*, 2021; Jeff Patton, *User Story Mapping*, 2014)
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

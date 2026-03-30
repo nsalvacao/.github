@@ -1,7 +1,7 @@
 ---
 title: Product Backlog Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -11,7 +11,7 @@ source_basis: Scrum Guide 2020 Product Backlog practices
 source_manifests:
   - method__scrum_guide.md
 alignment_mode: direct-adaptation
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Product Backlog — `{{PRODUCT_OR_INITIATIVE_NAME}}`
@@ -66,6 +66,13 @@ Backlog refinement is the ongoing act of adding detail, estimates, and order to 
 - Link each item to a discovery brief, experiment, or decision record.
 - The Product Owner is solely accountable for the order of the Product Backlog.
 
+### Related Artifacts
+
+- `Discovery Brief`: `./discovery_brief.md`
+- `Product Goal / Outcome Statement`: `./product_goal_outcome_statement.md`
+- `Planning Record`: `./planning_record.md`
+- `Assumptions Register`: `./assumptions_register.md`
+
 ---
 
 ## Source Attribution
@@ -73,4 +80,4 @@ Backlog refinement is the ongoing act of adding detail, estimates, and order to 
 - Source manifests: `method__scrum_guide.md`
 - Primary source basis: Scrum Guide 2020 — Product Backlog, Product Goal, Sprint Goal
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

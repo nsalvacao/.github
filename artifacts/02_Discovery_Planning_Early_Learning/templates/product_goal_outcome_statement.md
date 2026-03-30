@@ -1,7 +1,7 @@
 ---
 title: Product Goal / Outcome Statement Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -11,7 +11,7 @@ source_basis: Scrum Guide 2020 Product Goal + OKR outcome-oriented planning
 source_manifests:
   - method__scrum_guide.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Product Goal / Outcome Statement — `{{PRODUCT_OR_INITIATIVE_NAME}}`
@@ -82,9 +82,16 @@ The Product Owner is accountable for the Product Goal. Key Results are reviewed 
 - Linked discovery brief: `{{DISCOVERY_BRIEF_LINK}}`
 - Linked backlog item(s): `{{BACKLOG_LINKS}}`
 
+### Related Artifacts
+
+- `Discovery Brief`: `./discovery_brief.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Planning Record`: `./planning_record.md`
+- `Research / Experiment Log`: `./research_experiment_log.md`
+
 ## Source Attribution
 
 - Source manifests: `method__scrum_guide.md`
 - Primary source basis: Scrum Guide 2020 (Product Goal) + OKR framework (Doerr, *Measure What Matters*, 2018)
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -1,7 +1,7 @@
 ---
 title: Technical Retrospective Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -12,7 +12,7 @@ source_manifests:
   - method__scrum_guide.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Technical Retrospective — `{{PERIOD}}`
@@ -98,9 +98,16 @@ Track the fate of prior action items. Close the loop before opening new ones.
 
 If an action is dropped, record the reason to maintain transparency and avoid repeating the cycle.
 
+### Related Artifacts
+
+- `Planning Record`: `./planning_record.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Research / Experiment Log`: `./research_experiment_log.md`
+- `Assumptions Register`: `./assumptions_register.md`
+
 ## Source Attribution
 
 - Source manifests: `method__scrum_guide.md`, `operations__google_sre.md`
 - Primary source basis: Scrum Guide 2020 Sprint Retrospective + Norm Kerth Prime Directive (*Project Retrospectives*, 2001)
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

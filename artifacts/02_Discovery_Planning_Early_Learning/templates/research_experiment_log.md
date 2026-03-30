@@ -1,7 +1,7 @@
 ---
 title: Research / Experiment Log Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -12,7 +12,7 @@ source_manifests:
   - method__scrum_guide.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Research / Experiment Log â€” `{{EXPERIMENT_NAME}}`
@@ -101,9 +101,16 @@ Every experiment must end in a decision. "We need more data" is not a decision â
 | Related experiments | `{{RELATED_EXPERIMENT}}` |
 | Assumptions invalidated | `{{ASSUMPTION_REF}}` |
 
+### Related Artifacts
+
+- `Discovery Brief`: `./discovery_brief.md`
+- `Assumptions Register`: `./assumptions_register.md`
+- `Product Backlog`: `./product_backlog.md`
+- `Technical Retrospective`: `./technical_retrospective.md`
+
 ## Source Attribution
 
 - Source manifests: `method__scrum_guide.md`, `operations__google_sre.md`
 - Primary source basis: Lean Startup Build-Measure-Learn (Ries, 2011) + Google SRE operational experimentation practices
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -1,7 +1,7 @@
 ---
 title: Assumptions Register Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: governance@org
@@ -11,7 +11,7 @@ source_basis: Assumption-based planning (PMI PMBOK) + Lean Startup validated lea
 source_manifests:
   - platform__microsoft_learn.md
 alignment_mode: guided-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Assumptions Register — `{{SCOPE_NAME}}`
@@ -72,9 +72,16 @@ Prioritise critical assumption validation above feature delivery. An unvalidated
 - Tie each assumption to a decision, experiment, or backlog item.
 - An assumption that cannot be validated is a constraint — treat it as such.
 
+### Related Artifacts
+
+- `Discovery Brief`: `./discovery_brief.md`
+- `Product Goal / Outcome Statement`: `./product_goal_outcome_statement.md`
+- `Research / Experiment Log`: `./research_experiment_log.md`
+- `Technical Retrospective`: `./technical_retrospective.md`
+
 ## Source Attribution
 
 - Source manifests: `platform__microsoft_learn.md`
 - Primary source basis: Assumption-based planning (PMI PMBOK 7th edition) + Lean Startup validated learning (Ries, 2011)
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
