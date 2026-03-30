@@ -373,6 +373,9 @@
             theme: document.documentElement.classList.contains('dark') ? 'dark' : 'default',
             flowchart: { curve: 'basis' }
         });
+        document.querySelectorAll('.mermaid').forEach((el) => {
+            el.dataset.originalCode = el.textContent.trim();
+        });
 
         async function init() {
             const container = document.getElementById('catalog-container');
@@ -676,12 +679,18 @@
             document.getElementById('theme-toggle-dark-icon').classList.toggle('hidden', isDark);
             document.getElementById('theme-toggle-light-icon').classList.toggle('hidden', !isDark);
             
-            // Re-initialize mermaid if it exists to match theme
+            // Re-render Mermaid diagrams so theme changes stay visually consistent.
             try {
                 mermaid.initialize({ theme: isDark ? 'dark' : 'default' });
-                // Note: updating existing charts dynamically without reload is complex with mermaid, 
-                // but setting default is good for initial load.
-            } catch(e) {}
+                const mermaidElements = document.querySelectorAll('.mermaid');
+                mermaidElements.forEach((el) => {
+                    el.removeAttribute('data-processed');
+                    el.textContent = el.dataset.originalCode || el.textContent;
+                });
+                mermaid.init(undefined, mermaidElements);
+            } catch (e) {
+                console.error('Mermaid re-render failed', e);
+            }
         }
 
         function toggleTheme() {

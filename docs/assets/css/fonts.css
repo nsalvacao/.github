@@ -3,54 +3,54 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../fonts/font_4.woff2) format('truetype');
+  src: url(../fonts/inter-normal-300.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/font_1.woff2) format('truetype');
+  src: url(../fonts/inter-normal-400.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/font_3.woff2) format('truetype');
+  src: url(../fonts/inter-normal-500.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(../fonts/font_5.woff2) format('truetype');
+  src: url(../fonts/inter-normal-600.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/font_7.woff2) format('truetype');
+  src: url(../fonts/inter-normal-700.woff2) format('woff2');
 }
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/font_0.woff2) format('truetype');
+  src: url(../fonts/jetbrains-mono-normal-400.woff2) format('woff2');
 }
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/font_6.woff2) format('truetype');
+  src: url(../fonts/jetbrains-mono-normal-500.woff2) format('woff2');
 }
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/font_2.woff2) format('truetype');
+  src: url(../fonts/jetbrains-mono-normal-700.woff2) format('woff2');
 }

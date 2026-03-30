@@ -28,3 +28,9 @@ jobs:
         with:
           commit_message: "chore(docs): auto-generate manifest.json from README"
           file_pattern: docs/manifest.json
+
+# Source Attribution
+# - Source manifests: governance__github_docs.md
+# - Primary source basis: GitHub Actions workflow automation patterns
+# - Alignment mode: guided-synthesis
+# - Reviewed on: 2026-03-30
