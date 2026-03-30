@@ -105,4 +105,4 @@ Chosen option: "{{CHOSEN_OPTION}}", because {{JUSTIFICATION}}.
 - Source manifests: platform__aws_well_architected.md, platform__microsoft_learn.md
 - Primary source basis: MADR 3.x (adr.github.io/madr) — Markdown Architectural Decision Records
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

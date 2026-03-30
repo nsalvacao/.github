@@ -144,5 +144,5 @@ Decision log: see `decision_log.md`
 - Source manifests: governance__github_docs.md
 - Primary source basis: GitHub Docs repository README conventions
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
 

@@ -94,4 +94,4 @@ Document a forecast or actual deviation from agreed tolerances and request a dec
 - Source manifests: `project__prince2.md`
 - Primary source basis: PRINCE2 exception management guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

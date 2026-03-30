@@ -99,4 +99,4 @@ If no dissent was recorded, state: "No dissent recorded." Do not leave this sect
 - Source manifests: `platform__aws_well_architected.md`, `platform__microsoft_learn.md`
 - Primary source basis: AWS Well-Architected trade-off analysis practices; Microsoft Learn decision support guidance
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

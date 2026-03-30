@@ -122,4 +122,4 @@ Link automation descriptions to `artifacts/01_Governance_Method/templates/partia
 - Source manifests: documentation__diataxis.md, platform__aws_well_architected.md, platform__microsoft_learn.md, ai_ops__openai_docs.md
 - Primary source basis: AI safety and human-in-the-loop principles; AWS/Microsoft automation guidance; OpenAI AI ops guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

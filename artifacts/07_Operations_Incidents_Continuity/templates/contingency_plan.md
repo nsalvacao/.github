@@ -142,4 +142,4 @@ Document all backup procedures, schedules, retention policies, and restoration s
 - Source manifests: `operations__nist_cisa.md`
 - Primary source basis: NIST SP 800-34 Rev. 1 full plan structure
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

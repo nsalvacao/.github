@@ -93,4 +93,4 @@ Manual changes to managed environments are permitted only in declared emergencie
 - Source manifests: `platform__gitops.md`, `governance__github_docs.md`
 - Primary source basis: OpenGitOps v1.0 (gitops.tech)
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

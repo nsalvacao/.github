@@ -122,4 +122,4 @@ Record the canonical location where this document is stored long-term. The archi
 - Source manifests: operations__google_sre.md, operations__nist_cisa.md
 - Primary source basis: Google SRE and NIST learning-from-events practices
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

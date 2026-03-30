@@ -115,4 +115,4 @@ Link to other records that inform or are informed by this rationale.
 - Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
 - Primary source basis: arc42 section 9 (architecture decisions); AWS Well-Architected design principles
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

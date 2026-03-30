@@ -84,4 +84,4 @@ Alerts for breached thresholds are sent to `{{NOTIFICATION_CHANNEL}}`.
 - Source manifests: governance__github_docs.md, method__scrum_guide.md
 - Primary source basis: GitHub Actions workflow conventions; DORA small-batch delivery principles; GitHub Docs and Scrum Guide
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

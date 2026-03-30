@@ -145,4 +145,4 @@ Capture both strengths and gaps without assigning personal blame. The goal is to
 - Source manifests: operations__google_sre.md
 - Primary source basis: Google SRE Book Chapter 15 blameless postmortem culture
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

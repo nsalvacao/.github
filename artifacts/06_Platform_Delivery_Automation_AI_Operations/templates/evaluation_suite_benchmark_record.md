@@ -94,4 +94,4 @@ Regression threshold: fail if any metric regresses by > `{{REGRESSION_THRESHOLD}
 - Source manifests: `ai_ops__openai_docs.md`, `platform__microsoft_learn.md`
 - Primary source basis: evaluation and benchmark guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

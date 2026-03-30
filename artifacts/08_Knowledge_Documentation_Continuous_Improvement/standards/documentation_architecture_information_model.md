@@ -115,4 +115,4 @@ Add one row per document. Valid types: `tutorial`, `how-to`, `reference`, `expla
 - Source manifests: documentation__diataxis.md, governance__github_docs.md
 - Primary source basis: Diataxis framework (Daniele Procida, diataxis.fr)
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

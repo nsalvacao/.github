@@ -130,4 +130,4 @@ Before every release, the release owner must confirm that a rollback procedure e
 - Source manifests: governance__github_docs.md, operations__google_sre.md
 - Primary source basis: Semantic Versioning 2.0.0 (semver.org) and Conventional Commits 1.0.0
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -87,4 +87,4 @@ Signing mechanism: `{{SIGNING_MECHANISM}}` (e.g., GPG commit signing, OIDC token
 - Source manifests: operations__nist_cisa.md
 - Primary source basis: NIST auditability and traceability guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -130,5 +130,5 @@ Following GitHub Engineering Practices:
 - Source manifests: governance__github_docs.md
 - Primary source basis: GitHub Docs contribution guidance and Open Source Guides
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
 

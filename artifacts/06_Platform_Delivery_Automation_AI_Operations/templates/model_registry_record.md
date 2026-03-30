@@ -118,4 +118,4 @@ Common limitation categories to consider: distributional shift (model trained on
 - Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
 - Primary source basis: model registry and lineage guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

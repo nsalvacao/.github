@@ -132,4 +132,4 @@ Add previous release entries following the same structure above. Keep the full h
 - Source manifests: `governance__github_docs.md`, `operations__google_sre.md`
 - Primary source basis: Keep a Changelog format and Conventional Commits specification
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

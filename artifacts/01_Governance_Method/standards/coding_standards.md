@@ -93,4 +93,4 @@ The formatter configuration is located at `{{FORMATTER_CONFIG_PATH}}`. Formattin
 - Source manifests: governance__github_docs.md, platform__microsoft_learn.md
 - Primary source basis: Google Style Guide principles and GitHub Docs engineering guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

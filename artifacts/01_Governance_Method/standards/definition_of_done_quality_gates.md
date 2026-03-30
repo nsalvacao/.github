@@ -80,4 +80,4 @@ Stricter gates may be adopted immediately; relaxing a gate requires a documented
 - Source manifests: method__scrum_guide.md, governance__github_docs.md
 - Primary source basis: Scrum Guide 2020 and GitHub validation conventions
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

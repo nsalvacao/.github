@@ -87,4 +87,4 @@ Path filters: `{{PATH_FILTERS}}` (e.g., `artifacts/**`, `scripts/**`)
 - Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
 - Primary source basis: GitHub Actions and build traceability guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -152,4 +152,4 @@ Reviews are required at the cadence set by the owning document type in the Docum
 - Source manifests: documentation__diataxis.md, governance__github_docs.md, operations__google_sre.md
 - Primary source basis: Diataxis, GitHub Docs, and Google SRE knowledge capture guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

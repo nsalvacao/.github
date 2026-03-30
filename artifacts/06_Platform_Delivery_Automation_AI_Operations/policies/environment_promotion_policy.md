@@ -92,4 +92,4 @@ Every promotion event must be recorded for traceability and compliance.
 - Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
 - Primary source basis: GitHub environments and Microsoft promotion guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -156,4 +156,4 @@ Use fenced code blocks with an explicit language tag for all multi-line code, co
 - Source manifests: governance__github_docs.md, documentation__diataxis.md
 - Primary source basis: Google Developer Documentation Style Guide
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

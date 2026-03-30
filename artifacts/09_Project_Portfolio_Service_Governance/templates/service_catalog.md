@@ -97,4 +97,4 @@ _One entry per service. Add rows as needed._
 - Source manifests: `service_mgmt__itil.md`
 - Primary source basis: ITIL service catalog and service portfolio guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

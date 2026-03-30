@@ -82,4 +82,4 @@ Track issues requiring action, decision, or escalation, maintaining a single rec
 - Source manifests: `project__pmi.md`, `project__prince2.md`
 - Primary source basis: PMI and PRINCE2 issue management guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

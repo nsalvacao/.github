@@ -104,4 +104,4 @@ AI-specific incidents (e.g., harmful output, unexpected bias, safety guardrail b
 - Source manifests: `ai_ops__openai_docs.md`, `platform__microsoft_learn.md`
 - Primary source basis: NIST AI Risk Management Framework 1.0 + EU AI Act Article 13
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

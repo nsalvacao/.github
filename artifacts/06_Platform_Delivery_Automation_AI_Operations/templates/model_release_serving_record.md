@@ -100,4 +100,4 @@ Drift report cadence: `{{DRIFT_REPORT_CADENCE}}` — template at `artifacts/06_P
 - Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
 - Primary source basis: model serving guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

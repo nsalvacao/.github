@@ -82,4 +82,4 @@ Postmortem deadline: `{{POSTMORTEM_DEADLINE}}` business days after incident reso
 - Source manifests: `operations__google_sre.md`
 - Primary source basis: Google SRE Example Error Budget Policy
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

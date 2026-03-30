@@ -127,4 +127,4 @@ The release manager must confirm all blocking items are resolved before the chan
 - Source manifests: `governance__github_docs.md`, `operations__google_sre.md`
 - Primary source basis: Standard pre/during/post deployment gates aligned with SRE and DORA practices
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

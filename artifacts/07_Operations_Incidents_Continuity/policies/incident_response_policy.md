@@ -140,4 +140,4 @@ Post-incident activities ensure learning is captured and process improvements ar
 - Source manifests: `operations__nist_cisa.md`, `operations__google_sre.md`, `platform__aws_well_architected.md`, `platform__microsoft_learn.md`
 - Primary source basis: NIST SP 800-61r2, Google SRE Incident Management Guide, AWS Operational Readiness, Microsoft Learn continuity guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

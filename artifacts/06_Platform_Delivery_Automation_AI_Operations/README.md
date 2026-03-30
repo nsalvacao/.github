@@ -31,4 +31,4 @@ This dimension contains reusable artifacts for continuous integration and delive
 - Source manifests: `platform__gitops.md`, `platform__microsoft_learn.md`, `platform__aws_well_architected.md`, `ai_ops__openai_docs.md`
 - Primary source basis: GitHub-native delivery guidance, GitOps guidance, cloud platform guidance, and AI operations guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

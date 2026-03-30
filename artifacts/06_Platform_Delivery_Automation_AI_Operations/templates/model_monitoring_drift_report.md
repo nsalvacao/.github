@@ -92,4 +92,4 @@ Ground truth lag: `{{GROUND_TRUTH_LAG}}` (delay between prediction and label ava
 - Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
 - Primary source basis: model monitoring and drift guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

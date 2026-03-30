@@ -93,4 +93,4 @@ Current maturity target: **Level `{{TARGET_MATURITY_LEVEL}}`**
 - Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`, `ai_ops__openai_docs.md`
 - Primary source basis: cloud model operations guidance and AI operations guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -90,4 +90,4 @@ Drift remediation SLA: `{{DRIFT_REMEDIATION_SLA}}`
 - Source manifests: `platform__gitops.md`, `platform__aws_well_architected.md`, `platform__microsoft_learn.md`
 - Primary source basis: declarative infrastructure and platform baseline guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

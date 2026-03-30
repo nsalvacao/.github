@@ -64,4 +64,4 @@ The following are **not supported** through this repository:
 - Source manifests: `governance__github_docs.md`
 - Primary source basis: GitHub Docs support and community guidance
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -118,5 +118,5 @@ Changes to this governance model follow the same change process above with heigh
 - Source manifests: governance__github_docs.md
 - Primary source basis: GitHub Docs community governance guidance
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
 

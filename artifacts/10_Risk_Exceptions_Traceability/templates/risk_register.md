@@ -107,4 +107,4 @@ Any risk with a residual score exceeding its category's maximum acceptable score
 - Source manifests: operations__nist_cisa.md, platform__microsoft_learn.md
 - Primary source basis: NIST risk management guidance and Microsoft Learn governance practices
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

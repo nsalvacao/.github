@@ -96,4 +96,4 @@ Define a repeatable service request type with its eligibility criteria, fulfillm
 - Source manifests: `service_mgmt__itil.md`
 - Primary source basis: ITIL request fulfillment guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

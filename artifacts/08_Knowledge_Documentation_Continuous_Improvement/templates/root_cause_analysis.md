@@ -125,4 +125,4 @@ Describe how we will confirm that the root cause has been addressed. Verificatio
 - Source manifests: operations__nist_cisa.md, operations__google_sre.md
 - Primary source basis: NIST SP 800-61 incident analysis combined with 5 Whys and Ishikawa causal methods
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

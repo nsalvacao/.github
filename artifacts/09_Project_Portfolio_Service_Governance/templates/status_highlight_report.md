@@ -98,4 +98,4 @@ _If tolerances are being breached or are forecast to breach, an Exception Report
 - Source manifests: `project__prince2.md`, `project__pmi.md`
 - Primary source basis: PRINCE2 and PMI reporting guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

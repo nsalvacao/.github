@@ -101,4 +101,4 @@ Inter-annotator agreement: `{{IAA_METRIC}}` = `{{IAA_VALUE}}`
 - Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
 - Primary source basis: dataset lineage guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -123,4 +123,4 @@ Every action item must have an owner. Actions carried over from the previous rev
 - Source manifests: operations__google_sre.md
 - Primary source basis: Google SRE Workbook quarterly reliability review practices
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

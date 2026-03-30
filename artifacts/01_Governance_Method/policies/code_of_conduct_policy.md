@@ -101,4 +101,4 @@ This Code of Conduct is adapted from the [Contributor Covenant, version 2.1](htt
 - Source manifests: governance__github_docs.md
 - Primary source basis: Contributor Covenant 2.1 (contributor-covenant.org/version/2/1/code_of_conduct/)
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

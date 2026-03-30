@@ -83,4 +83,4 @@ Approved exceptions that persist beyond `{{EXCEPTION_REVIEW_PERIOD}}` trigger SL
 - Source manifests: `project__pmi.md`, `project__prince2.md`, `service_mgmt__itil.md`
 - Primary source basis: PMI, PRINCE2, and ITIL service governance guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

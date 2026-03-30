@@ -80,4 +80,4 @@ Response SLA: `{{ESCALATION_RESPONSE_SLA}}`
 - Source manifests: `project__pmi.md`
 - Primary source basis: PMI communications planning guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

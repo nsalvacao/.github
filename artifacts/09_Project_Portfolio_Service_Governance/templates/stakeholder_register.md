@@ -75,4 +75,4 @@ Quadrant mapping for prioritisation:
 - Source manifests: `project__pmi.md`
 - Primary source basis: PMI stakeholder management guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -95,4 +95,4 @@ This definition implements the four OpenGitOps v1.0 principles:
 - Source manifests: `platform__gitops.md`
 - Primary source basis: OpenGitOps, Flux, and Argo CD application definition guidance
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

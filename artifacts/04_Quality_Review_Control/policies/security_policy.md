@@ -99,4 +99,4 @@ Coordinated disclosure embargo period: `{{EMBARGO_PERIOD}}` (default 90 days fro
 - Source manifests: `governance__github_docs.md`
 - Primary source basis: GitHub Docs security policy guidance
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

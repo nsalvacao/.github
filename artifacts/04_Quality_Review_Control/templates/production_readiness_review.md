@@ -102,4 +102,4 @@ updated: 2026-03-30
 - Source manifests: `operations__google_sre.md`, `platform__aws_well_architected.md`
 - Primary source basis: Google SRE production readiness practices and AWS operational readiness guidance
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

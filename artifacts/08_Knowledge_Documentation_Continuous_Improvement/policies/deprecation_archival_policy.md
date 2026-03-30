@@ -36,4 +36,4 @@ Documents that are no longer authoritative must be deprecated, marked clearly, a
 - Source manifests: governance__github_docs.md, documentation__diataxis.md
 - Primary source basis: GitHub Docs and Diataxis archiving guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

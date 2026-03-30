@@ -173,4 +173,4 @@ Do not speculate on root cause in the initial notification. Provide a factual su
 - Source manifests: `operations__google_sre.md`, `governance__github_docs.md`
 - Primary source basis: Stakeholder communication best practices aligned with ITIL 4 and SRE change communication guidance
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

@@ -93,4 +93,4 @@ The BIA is considered complete when all sections are populated, recovery objecti
 - Source manifests: `operations__nist_cisa.md`
 - Primary source basis: NIST SP 800-34 Rev. 1 section 2.2 BIA template
 - Alignment mode: guided-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

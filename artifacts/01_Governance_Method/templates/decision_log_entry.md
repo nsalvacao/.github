@@ -84,4 +84,4 @@ Next review: `{{REVIEW_DATE}}`
 - Source manifests: governance__github_docs.md, platform__aws_well_architected.md, platform__microsoft_learn.md
 - Primary source basis: GitHub governance docs plus AWS/Microsoft guidance on decision records and reviews
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

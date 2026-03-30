@@ -192,4 +192,4 @@ Restate the acceptance criteria for this record: `{{ACCEPTANCE_CRITERIA}}`. All 
 - Source manifests: `platform__microsoft_learn.md`, `operations__nist_cisa.md`
 - Primary source basis: OWASP ASVS (Application Security Verification Standard) 4.0
 - Alignment mode: direct-adaptation
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

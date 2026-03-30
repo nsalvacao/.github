@@ -94,4 +94,4 @@ Measurement baseline period: `{{MEASUREMENT_BASELINE_PERIOD}}`. Teams must estab
 - Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
 - Primary source basis: DORA State of DevOps Research (Accelerate book) + GitHub Actions
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

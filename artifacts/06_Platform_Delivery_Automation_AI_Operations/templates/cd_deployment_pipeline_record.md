@@ -99,4 +99,4 @@ Gates that MUST pass before promotion to next stage:
 - Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
 - Primary source basis: GitHub and Microsoft deployment automation guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

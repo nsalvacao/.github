@@ -83,4 +83,4 @@ IaC baseline record: `{{IAC_BASELINE_RECORD_LINK}}`
 - Source manifests: `governance__github_docs.md`, `platform__gitops.md`
 - Primary source basis: GitHub environment and GitOps configuration guidance
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

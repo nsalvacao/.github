@@ -87,4 +87,4 @@ Total deadline from incident resolution to published postmortem: `{{TOTAL_POSTMO
 - Source manifests: `operations__google_sre.md`
 - Primary source basis: Google SRE Incident Management Guide & Postmortem Culture
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30

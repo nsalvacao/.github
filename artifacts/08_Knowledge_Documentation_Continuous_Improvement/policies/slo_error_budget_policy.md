@@ -102,4 +102,4 @@ At the end of each reset period, the error budget returns to its full value. Use
 - Source manifests: operations__google_sre.md
 - Primary source basis: Google SRE Book Chapter 6 Service Level Objectives
 - Alignment mode: hybrid-synthesis
-- Reviewed on: 2026-03-27
+- Reviewed on: 2026-03-30
