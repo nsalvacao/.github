@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: validation strategy, verification expectations, and quality gates
 source_basis: Microsoft Learn testing guidance; Google SRE verification and reliability practices
 source_manifests:
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
@@ -82,7 +82,7 @@ A build is releasable when ALL of the following are true:
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `operations__google_sre.md`
+- Source manifests: `platform__microsoft_architecture.md`, `operations__google_sre.md`
 - Primary source basis: Microsoft testing guidance and Google SRE verification practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

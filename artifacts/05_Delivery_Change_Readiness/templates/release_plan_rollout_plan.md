@@ -10,7 +10,7 @@ applies_to: release planning and rollout execution
 source_basis: DORA four key metrics and SRE Workbook progressive delivery
 source_manifests:
   - operations__google_sre.md
-  - governance__github_docs.md
+  - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---
@@ -142,7 +142,7 @@ Ensure the rollback plan has been reviewed and the rollback procedure tested bef
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `governance__github_docs.md`
+- Source manifests: `operations__google_sre.md`
 - Primary source basis: DORA four key metrics and SRE Workbook progressive delivery
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

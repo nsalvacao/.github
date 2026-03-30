@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: release communication and public change history
 source_basis: Keep a Changelog format and Conventional Commits specification
 source_manifests:
-  - governance__github_docs.md
+  - operations__google_sre.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
@@ -129,7 +129,7 @@ Add previous release entries following the same structure above. Keep the full h
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `operations__google_sre.md`
+- Source manifests: `operations__google_sre.md`
 - Primary source basis: Keep a Changelog format and Conventional Commits specification
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

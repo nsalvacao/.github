@@ -10,7 +10,8 @@ applies_to: "{{APPLIES_TO}}"
 source_basis: MADR 3.x (adr.github.io/madr) — Markdown Architectural Decision Records
 source_manifests:
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - architecture__madr.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 adr_id: "ADR-{{ADR_SEQUENCE}}"
@@ -102,7 +103,7 @@ Chosen option: "{{CHOSEN_OPTION}}", because {{JUSTIFICATION}}.
 
 ## Source Attribution
 
-- Source manifests: platform__aws_well_architected.md, platform__microsoft_learn.md
+- Source manifests: platform__aws_well_architected.md, architecture__madr.md, platform__microsoft_architecture.md
 - Primary source basis: MADR 3.x (adr.github.io/madr) — Markdown Architectural Decision Records
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

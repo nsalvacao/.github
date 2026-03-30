@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: stable operational processes
 source_basis: ISO 9001 quality management system structure and Google SRE operational practice
 source_manifests:
-  - operations__nist_cisa.md
+  - operations__google_sre.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-27
@@ -139,7 +139,7 @@ Maintain a complete change history. Every change must state what changed and why
 
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md, operations__google_sre.md
+- Source manifests: operations__google_sre.md
 - Primary source basis: ISO 9001 quality management system structure and Google SRE operational practice
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-27

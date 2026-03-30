@@ -10,7 +10,7 @@ applies_to: governance metrics, risks, exceptions, and operational reviews
 source_basis: Google SRE review cadence and Scrum inspection guidance
 source_manifests:
   - operations__google_sre.md
-  - governance__github_docs.md
+  - method__scrum_guide.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -73,7 +73,7 @@ Reviews with no output are invalid. Record outcomes in `{{REVIEW_OUTCOME_LOCATIO
 
 ## Source Attribution
 
-- Source manifests: operations__google_sre.md, governance__github_docs.md
+- Source manifests: operations__google_sre.md, method__scrum_guide.md
 - Primary source basis: Google SRE review cadence and Scrum inspection guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

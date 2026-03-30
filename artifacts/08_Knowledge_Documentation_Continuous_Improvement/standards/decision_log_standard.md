@@ -11,7 +11,7 @@ source_basis: GitHub Docs decision record practices and repository governance co
 source_manifests:
   - governance__github_docs.md
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -131,7 +131,7 @@ Decision records are machine-readable knowledge artifacts. The following automat
 
 ## Source Attribution
 
-- Source manifests: governance__github_docs.md, platform__aws_well_architected.md, platform__microsoft_learn.md
+- Source manifests: governance__github_docs.md, platform__aws_well_architected.md, platform__microsoft_architecture.md
 - Primary source basis: GitHub Docs decision record practices and repository governance conventions
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

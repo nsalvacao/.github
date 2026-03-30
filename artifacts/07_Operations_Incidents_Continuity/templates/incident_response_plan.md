@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: incident response planning
 source_basis: NIST SP 800-61r3 and Google SRE incident management guidance
 source_manifests:
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
@@ -166,7 +166,7 @@ Our team is actively working on a resolution. Next update: {{NEXT_UPDATE_TIME_UT
 
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md, operations__google_sre.md
+- Source manifests: operations__nist_incident_response.md, operations__google_sre.md
 - Primary source basis: NIST SP 800-61r3 and Google SRE incident management guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

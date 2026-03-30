@@ -10,6 +10,7 @@ applies_to: goal definition and outcome framing
 source_basis: Scrum Guide 2020 Product Goal + OKR outcome-oriented planning
 source_manifests:
   - method__scrum_guide.md
+  - method__okr.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---
@@ -91,7 +92,7 @@ The Product Owner is accountable for the Product Goal. Key Results are reviewed 
 
 ## Source Attribution
 
-- Source manifests: `method__scrum_guide.md`
+- Source manifests: `method__scrum_guide.md`, `method__okr.md`
 - Primary source basis: Scrum Guide 2020 (Product Goal) + OKR framework (Doerr, *Measure What Matters*, 2018)
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

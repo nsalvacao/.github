@@ -9,8 +9,7 @@ review_cadence: quarterly
 applies_to: design and delivery security requirements that must be tracked explicitly
 source_basis: OWASP ASVS (Application Security Verification Standard) 4.0
 source_manifests:
-  - platform__microsoft_learn.md
-  - operations__nist_cisa.md
+  - security__owasp_asvs.md
 alignment_mode: direct-adaptation
 updated: 2026-03-30
 ---
@@ -189,7 +188,7 @@ Restate the acceptance criteria for this record: `{{ACCEPTANCE_CRITERIA}}`. All 
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `operations__nist_cisa.md`
+- Source manifests: `security__owasp_asvs.md`
 - Primary source basis: OWASP ASVS (Application Security Verification Standard) 4.0
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

@@ -9,8 +9,8 @@ review_cadence: quarterly
 applies_to: discovery and risk anticipation
 source_basis: Gary Klein prospective hindsight pre-mortem method (Klein 2007)
 source_manifests:
+  - method__pre_mortem.md
   - operations__google_sre.md
-  - platform__microsoft_learn.md
 alignment_mode: guided-synthesis
 updated: 2026-03-27
 ---
@@ -104,7 +104,7 @@ The team commits to the prevention actions listed above. This summary is shared 
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `platform__microsoft_learn.md`
+- Source manifests: `method__pre_mortem.md`, `operations__google_sre.md`
 - Primary source basis: Gary Klein, "Performing a Project Pre-mortem" (*Harvard Business Review*, 2007); prospective hindsight research (Klein et al., 1989)
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-27

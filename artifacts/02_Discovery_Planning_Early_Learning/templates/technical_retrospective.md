@@ -10,6 +10,7 @@ applies_to: iteration and technical learning reviews
 source_basis: Scrum Guide 2020 Sprint Retrospective + Norm Kerth Prime Directive
 source_manifests:
   - method__scrum_guide.md
+  - method__retrospectives.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
@@ -107,7 +108,7 @@ If an action is dropped, record the reason to maintain transparency and avoid re
 
 ## Source Attribution
 
-- Source manifests: `method__scrum_guide.md`, `operations__google_sre.md`
+- Source manifests: `method__scrum_guide.md`, `method__retrospectives.md`, `operations__google_sre.md`
 - Primary source basis: Scrum Guide 2020 Sprint Retrospective + Norm Kerth Prime Directive (*Project Retrospectives*, 2001)
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

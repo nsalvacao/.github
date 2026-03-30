@@ -11,7 +11,7 @@ source_basis: OpenGitOps, AWS Well-Architected, and Microsoft platform baseline 
 source_manifests:
   - platform__gitops.md
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -87,7 +87,7 @@ Drift remediation SLA: `{{DRIFT_REMEDIATION_SLA}}`
 
 ## Source Attribution
 
-- Source manifests: `platform__gitops.md`, `platform__aws_well_architected.md`, `platform__microsoft_learn.md`
+- Source manifests: `platform__gitops.md`, `platform__aws_well_architected.md`, `platform__microsoft_architecture.md`
 - Primary source basis: declarative infrastructure and platform baseline guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

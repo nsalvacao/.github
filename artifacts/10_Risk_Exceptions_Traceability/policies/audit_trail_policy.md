@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: decisions, changes, exceptions, and governance records
 source_basis: NIST auditability and traceability guidance
 source_manifests:
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -84,7 +84,7 @@ Signing mechanism: `{{SIGNING_MECHANISM}}` (e.g., GPG commit signing, OIDC token
 
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md
+- Source manifests: operations__nist_incident_response.md
 - Primary source basis: NIST auditability and traceability guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

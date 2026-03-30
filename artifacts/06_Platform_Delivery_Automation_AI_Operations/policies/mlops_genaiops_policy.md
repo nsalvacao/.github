@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: repositories that build, evaluate, deploy, or monitor models or prompts
 source_basis: Microsoft Learn and Google Cloud model operations guidance
 source_manifests:
-  - platform__microsoft_learn.md
+  - platform__microsoft_mlops.md
   - platform__aws_well_architected.md
   - ai_ops__openai_docs.md
 alignment_mode: hybrid-synthesis
@@ -90,7 +90,7 @@ Current maturity target: **Level `{{TARGET_MATURITY_LEVEL}}`**
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`, `ai_ops__openai_docs.md`
+- Source manifests: `platform__microsoft_mlops.md`, `platform__aws_well_architected.md`, `ai_ops__openai_docs.md`
 - Primary source basis: cloud model operations guidance and AI operations guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

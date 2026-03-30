@@ -10,7 +10,7 @@ applies_to: repositories with automated build and validation workflows
 source_basis: GitHub Actions workflow and build traceability guidance
 source_manifests:
   - governance__github_docs.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -84,7 +84,7 @@ Path filters: `{{PATH_FILTERS}}` (e.g., `artifacts/**`, `scripts/**`)
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
+- Source manifests: `governance__github_docs.md`, `platform__microsoft_architecture.md`
 - Primary source basis: GitHub Actions and build traceability guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

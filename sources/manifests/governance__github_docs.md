@@ -4,7 +4,7 @@
 
 - Domain: repository governance, community health files, issue and pull request templates, workflows, CODEOWNERS, and security reporting surfaces
 - Source family: official GitHub Docs and Open Source Guides
-- Public role: canonical provenance anchor for repository-instance governance files and GitHub-native reusable assets
+- Public role: provenance anchor for repository-instance governance files and GitHub-native reusable assets
 
 ## Official source basis
 
@@ -21,14 +21,21 @@
 - support and security policy
 - issue forms, PR templates, CODEOWNERS, and workflow-facing repository governance surfaces
 
+## Validation Contract
+
+- Supported source basis tokens: `GitHub Docs`, `GitHub Actions`, `GitHub environment`, `CODEOWNERS`, `issue forms`, `pull request template`, `Open Source Guides`
+- Allowed dimensions: `01_Governance_Method`, `04_Quality_Review_Control`, `06_Platform_Delivery_Automation_AI_Operations`, `08_Knowledge_Documentation_Continuous_Improvement`, `10_Risk_Exceptions_Traceability`
+- Authority level: `implementation-guidance`
+
 ## Notes
 
 - This manifest is public and sanitized. It summarizes the authoritative source family without reproducing copyrighted source text.
-- Use this manifest when an artifact or root document is materially grounded in GitHub repository-governance or community-health guidance.
+- Use this manifest when an artifact or root document is materially grounded in GitHub repository-governance, GitHub-native workflow behavior, or community-health guidance.
+- Do not use this manifest as a generic legitimacy bucket for semantically unrelated methods such as discovery, project governance, or reliability review cadence.
 
 ## Source Attribution
 
 - Source manifests: self
 - Primary source basis: GitHub Docs and Open Source Guides
 - Alignment mode: `direct-adaptation`
-- Reviewed on: 2026-03-28
+- Reviewed on: 2026-03-30

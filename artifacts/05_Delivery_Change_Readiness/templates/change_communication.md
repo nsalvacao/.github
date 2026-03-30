@@ -10,7 +10,7 @@ applies_to: release and change communication
 source_basis: Stakeholder communication best practices aligned with ITIL 4 and SRE change communication guidance
 source_manifests:
   - operations__google_sre.md
-  - governance__github_docs.md
+  - service_mgmt__itil.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---
@@ -170,7 +170,7 @@ Do not speculate on root cause in the initial notification. Provide a factual su
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `governance__github_docs.md`
+- Source manifests: `operations__google_sre.md`, `service_mgmt__itil.md`
 - Primary source basis: Stakeholder communication best practices aligned with ITIL 4 and SRE change communication guidance
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

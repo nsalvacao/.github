@@ -10,7 +10,7 @@ applies_to: incident communication during operational events
 source_basis: Google SRE incident communication guidance and NIST incident response guidance
 source_manifests:
   - operations__google_sre.md
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-27
 ---
@@ -146,7 +146,7 @@ Record every communication sent during the incident. This log is required for th
 
 ## Source Attribution
 
-- Source manifests: operations__google_sre.md, operations__nist_cisa.md
+- Source manifests: operations__google_sre.md, operations__nist_incident_response.md
 - Primary source basis: Google SRE communication guidance and NIST incident response guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-27

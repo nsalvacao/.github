@@ -10,7 +10,7 @@ applies_to: diagnosed but unresolved errors and workarounds
 source_basis: ITIL, NIST
 source_manifests:
   - service_mgmt__itil.md
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -107,7 +107,7 @@ Record a diagnosed but unresolved error, its impact, and its workaround until a 
 
 ## Source Attribution
 
-- Source manifests: `service_mgmt__itil.md`, `operations__nist_cisa.md`
+- Source manifests: `service_mgmt__itil.md`, `operations__nist_incident_response.md`
 - Primary source basis: ITIL known error management guidance and NIST incident learning practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

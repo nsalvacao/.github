@@ -63,6 +63,98 @@ THIN_WRAPPER_REFERENCES = {
     Path("GEMINI.md"): "./AI_AGENT_POLICY.md",
     Path(".github/copilot-instructions.md"): "../AI_AGENT_POLICY.md",
 }
+VALIDATION_CONTRACT_HEADING = "## Validation Contract"
+SOURCE_ATTRIBUTION_HEADING = "## Source Attribution"
+CONTRACT_KEYS = {
+    "supported source basis tokens": "tokens",
+    "allowed dimensions": "dimensions",
+    "authority level": "authority",
+}
+SOURCE_FAMILY_RULES = [
+    (re.compile(r"\bNIST SP 800-61(?:r3| Rev\. 3)?\b", re.IGNORECASE), {"operations__nist_incident_response.md"}),
+    (re.compile(r"\bNIST SP 800-34(?: Rev\. 1)?\b", re.IGNORECASE), {"operations__nist_continuity.md"}),
+    (re.compile(r"\bISO 22301(?::2019)?\b", re.IGNORECASE), {"operations__iso_22301.md"}),
+    (re.compile(r"\bITIL(?: 4)?\b", re.IGNORECASE), {"service_mgmt__itil.md"}),
+    (re.compile(r"\bPMI\b|\bPMBOK\b", re.IGNORECASE), {"project__pmi.md"}),
+    (re.compile(r"\bPRINCE2\b", re.IGNORECASE), {"project__prince2.md"}),
+    (re.compile(r"\bScrum Guide\b|\bSprint Planning\b|\bProduct Backlog\b|\bProduct Goal\b", re.IGNORECASE), {"method__scrum_guide.md"}),
+    (re.compile(r"\bOKR\b|Objectives and Key Results|outcome-oriented planning", re.IGNORECASE), {"method__okr.md"}),
+    (re.compile(r"\bLean Startup\b|Build-Measure-Learn|validated learning", re.IGNORECASE), {"method__lean_startup.md"}),
+    (re.compile(r"Teresa Torres|Jeff Patton|continuous discovery|dual-track discovery|User Story Mapping", re.IGNORECASE), {"method__continuous_discovery.md"}),
+    (re.compile(r"Norm Kerth|Prime Directive", re.IGNORECASE), {"method__retrospectives.md"}),
+    (re.compile(r"Gary Klein|pre-mortem|prospective hindsight", re.IGNORECASE), {"method__pre_mortem.md"}),
+    (re.compile(r"OWASP ASVS|Application Security Verification Standard|\bASVS\b", re.IGNORECASE), {"security__owasp_asvs.md"}),
+    (re.compile(r"OWASP Threat Modeling|OWASP threat modeling", re.IGNORECASE), {"security__owasp_threat_modeling.md"}),
+    (re.compile(r"\bSTRIDE\b|Microsoft threat modeling|Microsoft STRIDE", re.IGNORECASE), {"platform__microsoft_security.md"}),
+    (re.compile(r"NIST AI Risk Management Framework|NIST AI RMF|EU AI Act|Article 13", re.IGNORECASE), {"ai_gov__nist_ai_rmf_eu_ai_act.md"}),
+    (re.compile(r"\bMLOps\b|\bGenAIOps\b|Azure Machine Learning|Microsoft AI guidance|Microsoft model|Microsoft dataset", re.IGNORECASE), {"platform__microsoft_mlops.md"}),
+    (re.compile(r"Azure Architecture Center|Azure Well-Architected|Cloud Adoption Framework|Microsoft architecture|Microsoft governance practices", re.IGNORECASE), {"platform__microsoft_architecture.md"}),
+    (re.compile(r"\bMADR\b|Markdown Architectural Decision Records", re.IGNORECASE), {"architecture__madr.md"}),
+    (re.compile(r"\barc42\b", re.IGNORECASE), {"architecture__arc42.md"}),
+    (re.compile(r"\bFMEA\b|IEC 60812|SAE J1739|failure mode analysis", re.IGNORECASE), {"quality__fmea.md"}),
+]
+
+
+def extract_markdown_section(text: str, heading: str) -> list[str]:
+    lines = text.splitlines()
+    capture = False
+    section: list[str] = []
+    for line in lines:
+        if line.strip() == heading:
+            capture = True
+            continue
+        if capture and line.startswith("## "):
+            break
+        if capture:
+            section.append(line.rstrip())
+    return section
+
+
+def parse_manifest_contract(path: Path) -> dict[str, object]:
+    content = path.read_text(encoding="utf-8")
+    section = extract_markdown_section(content, VALIDATION_CONTRACT_HEADING)
+    contract: dict[str, object] = {"tokens": [], "dimensions": [], "authority": ""}
+    if not section:
+        return contract
+    for line in section:
+        stripped = line.strip()
+        if not stripped.startswith("- ") or ":" not in stripped:
+            continue
+        label, value = stripped[2:].split(":", 1)
+        key = CONTRACT_KEYS.get(label.strip().lower())
+        if not key:
+            continue
+        value = value.strip()
+        if key in {"tokens", "dimensions"}:
+            contract[key] = [item.strip("` ").strip() for item in value.split(",") if item.strip()]
+        else:
+            contract[key] = value.strip("` ")
+    return contract
+
+
+def parse_source_attribution_refs(text: str) -> list[str]:
+    for line in extract_markdown_section(text, SOURCE_ATTRIBUTION_HEADING):
+        stripped = line.strip()
+        if not stripped.lower().startswith("- source manifests:"):
+            continue
+        return normalize_manifest_refs(stripped.split(":", 1)[1].strip())
+    return []
+
+
+def artifact_dimension(path: Path) -> str:
+    if path.parts and path.parts[0] == "artifacts":
+        if len(path.parts) == 2 and path.name == "README.md":
+            return "root"
+        if len(path.parts) > 1:
+            return path.parts[1]
+    return "root"
+
+
+def manifest_contracts() -> dict[str, dict[str, object]]:
+    contracts: dict[str, dict[str, object]] = {}
+    for path in sorted(PUBLIC_MANIFEST_DIR.glob("*.md")):
+        contracts[path.name] = parse_manifest_contract(path)
+    return contracts
 
 
 def read_artifact_status(path: Path) -> str:
@@ -199,6 +291,37 @@ def validate_manifest_refs(fm_data: dict[str, object]) -> list[str]:
     return []
 
 
+def validate_manifest_alignment(path: Path, content: str, fm_data: dict[str, object], contracts: dict[str, dict[str, object]]) -> list[str]:
+    problems: list[str] = []
+    refs = normalize_manifest_refs(fm_data.get("source_manifests", []))
+    footer_refs = parse_source_attribution_refs(content)
+    if set(refs) != set(footer_refs):
+        problems.append("frontmatter source_manifests and Source Attribution manifest refs must match")
+
+    dimension = artifact_dimension(path)
+    source_basis = str(fm_data.get("source_basis", ""))
+    for ref in refs:
+        contract = contracts.get(ref, {})
+        if not contract:
+            continue
+        tokens = [str(token).lower() for token in contract.get("tokens", [])]
+        allowed_dimensions = [str(item) for item in contract.get("dimensions", [])]
+        if dimension != "root" and allowed_dimensions and dimension not in allowed_dimensions:
+            problems.append(f"manifest '{ref}' is out of allowed scope for dimension '{dimension}'")
+        if tokens and source_basis:
+            source_basis_lc = source_basis.lower()
+            if not any(token in source_basis_lc for token in tokens):
+                # Supporting manifests are allowed if another manifest covers the primary family.
+                continue
+
+    for pattern, accepted in SOURCE_FAMILY_RULES:
+        if pattern.search(source_basis) and not (set(refs) & accepted):
+            problems.append(
+                f"source_basis claims '{pattern.pattern}' without a supporting manifest from: {', '.join(sorted(accepted))}"
+            )
+    return problems
+
+
 def check_markdown(path: Path) -> list[str]:
     content = path.read_text(encoding="utf-8")
     fm_data, _ = parse_frontmatter(content)
@@ -209,6 +332,7 @@ def check_markdown(path: Path) -> list[str]:
     if missing:
         problems.append(f"missing frontmatter keys: {', '.join(missing)}")
     problems.extend(validate_manifest_refs(fm_data))
+    problems.extend(validate_manifest_alignment(path, content, fm_data, manifest_contracts()))
     if not has_source_attribution(content):
         problems.append("missing '## Source Attribution'")
     if LOCAL_PATH_PATTERN.search(content):
@@ -228,6 +352,7 @@ def check_root_markdown(path: Path) -> list[str]:
             problems.append(f"missing frontmatter keys: {', '.join(missing)}")
         if "source_manifests" in fm_data:
             problems.extend(validate_manifest_refs(fm_data))
+            problems.extend(validate_manifest_alignment(path, content, fm_data, manifest_contracts()))
     if not has_source_attribution(content):
         problems.append("missing '## Source Attribution'")
     if LOCAL_PATH_PATTERN.search(content):
@@ -431,6 +556,22 @@ def check_readme_artifact_coverage() -> list[Tuple[Path, Sequence[str]]]:
     return failures
 
 
+def check_manifest_contracts() -> list[Tuple[Path, Sequence[str]]]:
+    failures: list[Tuple[Path, Sequence[str]]] = []
+    for path in sorted(PUBLIC_MANIFEST_DIR.glob("*.md")):
+        contract = parse_manifest_contract(path)
+        problems: list[str] = []
+        if not contract.get("tokens"):
+            problems.append("manifest is missing Validation Contract supported source basis tokens")
+        if not contract.get("dimensions"):
+            problems.append("manifest is missing Validation Contract allowed dimensions")
+        if not contract.get("authority"):
+            problems.append("manifest is missing Validation Contract authority level")
+        if problems:
+            failures.append((path, problems))
+    return failures
+
+
 def check_readme_supporting_tables() -> list[Tuple[Path, Sequence[str]]]:
     readme = Path("README.md")
     lines = readme.read_text(encoding="utf-8").splitlines()
@@ -491,6 +632,7 @@ def gather_all_checks() -> list[Tuple[Path, Sequence[str]]]:
     failures.extend(check_readme_catalog_links())
     failures.extend(check_readme_artifact_coverage())
     failures.extend(check_readme_supporting_tables())
+    failures.extend(check_manifest_contracts())
     failures.extend(check_ai_policy_surface())
     failures.extend(check_root_gemini_absence())
     return failures

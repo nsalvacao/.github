@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: research, experimentation, and learning loops
 source_basis: Lean Startup Build-Measure-Learn + Google SRE experimentation practices
 source_manifests:
-  - method__scrum_guide.md
+  - method__lean_startup.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
@@ -110,7 +110,7 @@ Every experiment must end in a decision. "We need more data" is not a decision â
 
 ## Source Attribution
 
-- Source manifests: `method__scrum_guide.md`, `operations__google_sre.md`
+- Source manifests: `method__lean_startup.md`, `operations__google_sre.md`
 - Primary source basis: Lean Startup Build-Measure-Learn (Ries, 2011) + Google SRE operational experimentation practices
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

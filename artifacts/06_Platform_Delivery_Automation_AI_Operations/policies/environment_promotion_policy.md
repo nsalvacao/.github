@@ -10,7 +10,7 @@ applies_to: repositories that promote changes across multiple environments
 source_basis: GitHub environment and platform promotion guidance
 source_manifests:
   - governance__github_docs.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -89,7 +89,7 @@ Every promotion event must be recorded for traceability and compliance.
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
+- Source manifests: `governance__github_docs.md`, `platform__microsoft_architecture.md`
 - Primary source basis: GitHub environments and Microsoft promotion guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

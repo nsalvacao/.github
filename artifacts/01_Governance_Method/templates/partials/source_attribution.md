@@ -36,7 +36,18 @@ Do not omit or rename the ## Source Attribution heading. The validator requires 
 
 ## Source Attribution
 
+- Source manifests: `governance__github_docs.md`
+- Primary source basis: GitHub Docs source attribution and reusable template guidance
+- Alignment mode: direct-adaptation
+- Reviewed on: 2026-03-30
+
+### Reusable block
+
+```md
+## Source Attribution
+
 - Source manifests: `{{SOURCE_MANIFEST_1}}`, `{{SOURCE_MANIFEST_2}}`
 - Primary source basis: {{PRIMARY_SOURCE_BASIS}}
 - Alignment mode: {{ALIGNMENT_MODE}}
 - Reviewed on: {{REVIEWED_ON_DATE}}
+```

@@ -9,8 +9,7 @@ review_cadence: quarterly
 applies_to: discovery and problem framing
 source_basis: Dual-track discovery — Teresa Torres / Jeff Patton continuous discovery
 source_manifests:
-  - method__scrum_guide.md
-  - governance__github_docs.md
+  - method__continuous_discovery.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
 ---
@@ -116,7 +115,7 @@ The smallest useful follow-up action that will reduce uncertainty.
 
 ## Source Attribution
 
-- Source manifests: `method__scrum_guide.md`, `governance__github_docs.md`
+- Source manifests: `method__continuous_discovery.md`
 - Primary source basis: Dual-track discovery (Teresa Torres, *Continuous Discovery Habits*, 2021; Jeff Patton, *User Story Mapping*, 2014)
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

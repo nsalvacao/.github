@@ -9,8 +9,8 @@ review_cadence: quarterly
 applies_to: AI systems, prompts, evaluations, and model-serving workflows
 source_basis: NIST AI Risk Management Framework 1.0 + EU AI Act Article 13
 source_manifests:
+  - ai_gov__nist_ai_rmf_eu_ai_act.md
   - ai_ops__openai_docs.md
-  - platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -101,7 +101,7 @@ AI-specific incidents (e.g., harmful output, unexpected bias, safety guardrail b
 
 ## Source Attribution
 
-- Source manifests: `ai_ops__openai_docs.md`, `platform__microsoft_learn.md`
+- Source manifests: `ai_gov__nist_ai_rmf_eu_ai_act.md`, `ai_ops__openai_docs.md`
 - Primary source basis: NIST AI Risk Management Framework 1.0 + EU AI Act Article 13
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

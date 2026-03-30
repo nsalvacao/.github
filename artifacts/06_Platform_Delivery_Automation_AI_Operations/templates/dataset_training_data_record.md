@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: repositories that train or evaluate models on data
 source_basis: Microsoft and Google dataset lineage guidance
 source_manifests:
-  - platform__microsoft_learn.md
+  - platform__microsoft_mlops.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
@@ -98,7 +98,7 @@ Inter-annotator agreement: `{{IAA_METRIC}}` = `{{IAA_VALUE}}`
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
+- Source manifests: `platform__microsoft_mlops.md`, `platform__aws_well_architected.md`
 - Primary source basis: dataset lineage guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

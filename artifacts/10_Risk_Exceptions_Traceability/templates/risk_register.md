@@ -9,8 +9,8 @@ review_cadence: monthly
 applies_to: project, service, and governance risks
 source_basis: NIST risk management guidance and Microsoft Learn governance practices
 source_manifests:
-  - operations__nist_cisa.md
-  - platform__microsoft_learn.md
+  - operations__nist_incident_response.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -104,7 +104,7 @@ Any risk with a residual score exceeding its category's maximum acceptable score
 
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md, platform__microsoft_learn.md
+- Source manifests: operations__nist_incident_response.md, platform__microsoft_architecture.md
 - Primary source basis: NIST risk management guidance and Microsoft Learn governance practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

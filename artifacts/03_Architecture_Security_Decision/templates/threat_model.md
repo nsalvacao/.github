@@ -9,8 +9,8 @@ review_cadence: quarterly
 applies_to: systems or changes that require explicit security threat analysis
 source_basis: Microsoft STRIDE threat modeling; OWASP Threat Modeling (owasp.org/www-community/Threat_Modeling)
 source_manifests:
-  - platform__microsoft_learn.md
-  - operations__nist_cisa.md
+  - platform__microsoft_security.md
+  - security__owasp_threat_modeling.md
 alignment_mode: direct-adaptation
 updated: 2026-03-30
 ---
@@ -142,7 +142,7 @@ List threats where the residual risk (after mitigations) is accepted rather than
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `operations__nist_cisa.md`
+- Source manifests: `platform__microsoft_security.md`, `security__owasp_threat_modeling.md`
 - Primary source basis: Microsoft STRIDE threat modeling; OWASP Threat Modeling (owasp.org/www-community/Threat_Modeling)
 - Alignment mode: direct-adaptation
 - Reviewed on: 2026-03-30

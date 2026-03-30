@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: release readiness checks
 source_basis: Standard pre/during/post deployment gates aligned with SRE and DORA practices
 source_manifests:
-  - governance__github_docs.md
+  - operations__google_sre.md
   - operations__google_sre.md
 alignment_mode: guided-synthesis
 updated: 2026-03-30
@@ -124,7 +124,7 @@ The release manager must confirm all blocking items are resolved before the chan
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `operations__google_sre.md`
+- Source manifests: `operations__google_sre.md`
 - Primary source basis: Standard pre/during/post deployment gates aligned with SRE and DORA practices
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-30

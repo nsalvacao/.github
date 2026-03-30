@@ -10,7 +10,7 @@ applies_to: repositories with automated deployment or promotion flows
 source_basis: GitHub and Microsoft deployment automation guidance
 source_manifests:
   - governance__github_docs.md
-  - platform__microsoft_learn.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -96,7 +96,7 @@ Gates that MUST pass before promotion to next stage:
 
 ## Source Attribution
 
-- Source manifests: `governance__github_docs.md`, `platform__microsoft_learn.md`
+- Source manifests: `governance__github_docs.md`, `platform__microsoft_architecture.md`
 - Primary source basis: GitHub and Microsoft deployment automation guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

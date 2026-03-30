@@ -17,14 +17,21 @@
 - highlight reports and exception/escalation records
 - project initiation and management-plan artifacts
 
+## Validation Contract
+
+- Supported source basis tokens: `PRINCE2`, `business case`, `highlight report`, `exception`, `project initiation`
+- Allowed dimensions: `09_Project_Portfolio_Service_Governance`
+- Authority level: `aligned-semantics`
+
 ## Notes
 
 - PRINCE2 naming is retained where it materially improves alignment with the official source family.
 - Public artifacts grounded here should avoid over-claiming template fidelity when the source available publicly is partial or productized.
+- Public PRINCE2 alignment here is intentionally bounded to publicly inspectable PeopleCert material and must not be represented as full normative reproduction.
 
 ## Source Attribution
 
 - Source manifests: self
 - Primary source basis: PRINCE2 and PeopleCert official materials
 - Alignment mode: `guided-synthesis`
-- Reviewed on: 2026-03-28
+- Reviewed on: 2026-03-30

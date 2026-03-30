@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: repeatable operational scenarios
 source_basis: PagerDuty Incident Response Guide and Google SRE incident management practices
 source_manifests:
-  - operations__nist_cisa.md
+  - operations__nist_incident_response.md
   - operations__google_sre.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
@@ -129,7 +129,7 @@ Schedule the postmortem within 48 hours while memory is fresh. Use the retrospec
 
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md, operations__google_sre.md, platform__aws_well_architected.md
+- Source manifests: operations__nist_incident_response.md, operations__google_sre.md, platform__aws_well_architected.md
 - Primary source basis: PagerDuty Incident Response Guide and Google SRE incident management practices
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-27

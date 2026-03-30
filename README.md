@@ -80,7 +80,7 @@ graph LR
 ### How to navigate
 - **Physical structure:** The [`artifacts/`](./artifacts/README.md) directory is organized into 10 numbered sections (01 to 10) matching this map.
 - **Governance Enforcement:** Standards are enforced via deterministic validation. Refer to [`scripts/validate_governance_artifacts.py`](./scripts/validate_governance_artifacts.py).
-- **Public provenance:** Source manifests live under [`sources/manifests/`](./sources/README.md) and are the public basis for traceable attribution.
+- **Public provenance:** Source manifests live under [`sources/manifests/`](./sources/README.md) and are the public basis for bounded, inspectable attribution when their scope aligns with each artifact's declared source basis.
 - **AI contribution policy:** Public AI and agent contribution rules live in [`AI_AGENT_POLICY.md`](./AI_AGENT_POLICY.md).
 - **Provider patterns:** Gemini reusable workflow patterns live in the artifact library and are not active by default in this repository instance.
 - **Exceptions & Deviations:** Recorded via the [`Exception / Deviation Record`](./artifacts/10_Risk_Exceptions_Traceability/templates/exception_deviation_record.md).
@@ -361,7 +361,7 @@ This governance corpus is licensed under the [**MIT License**](./LICENSE). Reusa
 
 ## Source Attribution
 
-- **Source manifests:** [`governance__github_docs.md`](./sources/manifests/governance__github_docs.md), [`platform__aws_well_architected.md`](./sources/manifests/platform__aws_well_architected.md), [`platform__microsoft_learn.md`](./sources/manifests/platform__microsoft_learn.md)
+- **Source manifests:** [`governance__github_docs.md`](./sources/manifests/governance__github_docs.md), [`platform__aws_well_architected.md`](./sources/manifests/platform__aws_well_architected.md), [`platform__microsoft_architecture.md`](./sources/manifests/platform__microsoft_architecture.md)
 - **Primary source basis:** GitHub Docs community governance guidance plus industrial technical frameworks.
 - **Alignment mode:** `hybrid-synthesis`
 - **Reviewed on:** 2026-03-28

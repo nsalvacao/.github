@@ -8,7 +8,7 @@ owner: "{{OWNER_NAME}}"
 review_cadence: quarterly
 applies_to: incident report
 source_basis: Google SRE Incident Management Guide, NIST SP 800-61r3
-source_manifests: operations__google_sre.md, operations__nist_cisa.md
+source_manifests: operations__google_sre.md, operations__nist_incident_response.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -122,7 +122,7 @@ Track all follow-up work here. Each action item must have an owner and due date 
 
 ## Source Attribution
 
-- Source manifests: `operations__google_sre.md`, `operations__nist_cisa.md`
+- Source manifests: `operations__google_sre.md`, `operations__nist_incident_response.md`
 - Primary source basis: Google SRE Incident Management Guide, NIST SP 800-61r3
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

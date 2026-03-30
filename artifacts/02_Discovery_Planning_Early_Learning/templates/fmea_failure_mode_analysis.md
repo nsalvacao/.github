@@ -9,8 +9,7 @@ review_cadence: quarterly
 applies_to: failure mode analysis and mitigation planning
 source_basis: IEC 60812:2018 FMEA standard + SAE J1739 Design FMEA methodology
 source_manifests:
-  - platform__microsoft_learn.md
-  - operations__nist_cisa.md
+  - quality__fmea.md
 alignment_mode: guided-synthesis
 updated: 2026-03-27
 ---
@@ -73,7 +72,7 @@ Set thresholds based on system criticality and organisational risk tolerance. Co
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `operations__nist_cisa.md`
+- Source manifests: `quality__fmea.md`
 - Primary source basis: IEC 60812:2018 (Failure modes and effects analysis) + SAE J1739 (Design FMEA methodology)
 - Alignment mode: guided-synthesis
 - Reviewed on: 2026-03-27

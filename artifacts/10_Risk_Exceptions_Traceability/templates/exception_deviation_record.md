@@ -9,8 +9,8 @@ review_cadence: monthly
 applies_to: approved exceptions and controlled policy deviations
 source_basis: NIST control exception handling and Microsoft Learn governance guidance
 source_manifests:
-  - operations__nist_cisa.md
-  - platform__microsoft_learn.md
+  - operations__nist_incident_response.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -89,7 +89,7 @@ If any condition is not met, this exception becomes invalid and `{{EXCEPTION_REV
 
 ## Source Attribution
 
-- Source manifests: operations__nist_cisa.md, platform__microsoft_learn.md
+- Source manifests: operations__nist_incident_response.md, platform__microsoft_architecture.md
 - Primary source basis: NIST control exception handling and Microsoft Learn governance guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

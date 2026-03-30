@@ -10,8 +10,8 @@ applies_to: architecture decisions that require durable justification and review
 source_basis: MADR 3.x (adr.github.io/madr); AWS Well-Architected decision practices; Microsoft Learn architecture review guidance
 source_manifests:
   - platform__aws_well_architected.md
-  - platform__microsoft_learn.md
-  - governance__github_docs.md
+  - architecture__madr.md
+  - platform__microsoft_architecture.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
 ---
@@ -119,7 +119,7 @@ Once an ADR reaches `accepted` status it **must not be edited**. If the decision
 
 ## Source Attribution
 
-- Source manifests: `platform__aws_well_architected.md`, `platform__microsoft_learn.md`, `governance__github_docs.md`
+- Source manifests: `platform__aws_well_architected.md`, `architecture__madr.md`, `platform__microsoft_architecture.md`
 - Primary source basis: MADR 3.x (adr.github.io/madr); AWS Well-Architected decision practices; Microsoft Learn architecture review guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30

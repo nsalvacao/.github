@@ -9,7 +9,7 @@ review_cadence: quarterly
 applies_to: repositories that register models or model-like AI assets
 source_basis: Microsoft and Google model registry guidance
 source_manifests:
-  - platform__microsoft_learn.md
+  - platform__microsoft_mlops.md
   - platform__aws_well_architected.md
 alignment_mode: hybrid-synthesis
 updated: 2026-03-30
@@ -115,7 +115,7 @@ Common limitation categories to consider: distributional shift (model trained on
 
 ## Source Attribution
 
-- Source manifests: `platform__microsoft_learn.md`, `platform__aws_well_architected.md`
+- Source manifests: `platform__microsoft_mlops.md`, `platform__aws_well_architected.md`
 - Primary source basis: model registry and lineage guidance
 - Alignment mode: hybrid-synthesis
 - Reviewed on: 2026-03-30
