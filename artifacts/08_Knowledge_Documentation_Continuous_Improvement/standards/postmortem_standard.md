@@ -1,7 +1,7 @@
 ---
 title: Postmortem Standard
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: reliability-platform
@@ -10,7 +10,7 @@ applies_to: all critical services
 source_basis: Google SRE Incident Management Guide & Postmortem Culture
 source_manifests: operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

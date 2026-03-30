@@ -1,7 +1,7 @@
 ---
 title: Decision Log Standard
 artifact_type: standard
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: knowledge-platform
@@ -13,7 +13,7 @@ source_manifests:
   - platform__aws_well_architected.md
   - platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

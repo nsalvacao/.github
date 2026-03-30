@@ -1,7 +1,7 @@
 ---
 title: Production Readiness Standard
 artifact_type: policy
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: reliability-platform
@@ -10,7 +10,7 @@ applies_to: releases carrying new services or significant changes
 source_basis: Google SRE Production Readiness Review & AWS Operational Readiness guidance
 source_manifests: operations__google_sre.md platform__aws_well_architected.md platform__microsoft_learn.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

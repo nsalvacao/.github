@@ -1,7 +1,7 @@
 ---
 title: Postmortem Template
 artifact_type: template
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: knowledge-platform
@@ -11,7 +11,7 @@ source_basis: Google SRE Book Chapter 15 blameless postmortem culture
 source_manifests:
   - operations__google_sre.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose

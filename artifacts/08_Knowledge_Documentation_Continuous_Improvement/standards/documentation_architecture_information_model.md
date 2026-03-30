@@ -1,7 +1,7 @@
 ---
 title: Documentation Architecture and Information Model
 artifact_type: standard
-status: public-draft
+status: public
 visibility: public
 classification: public
 owner: knowledge-platform
@@ -12,7 +12,7 @@ source_manifests:
   - documentation__diataxis.md
   - governance__github_docs.md
 alignment_mode: hybrid-synthesis
-updated: 2026-03-27
+updated: 2026-03-30
 ---
 
 ## Purpose
